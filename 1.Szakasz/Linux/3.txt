@@ -1,0 +1,7 @@
+#!/bin/bash
+VALUE=0
+for i in "$@"
+do
+  VALUE=$((VALUE+1))
+  echo "$VALUE: $i"
+done

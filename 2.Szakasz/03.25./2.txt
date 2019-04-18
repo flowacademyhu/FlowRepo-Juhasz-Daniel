@@ -1,0 +1,6 @@
+    1. Készíts két komponenst samsung és huawei néven
+    2. Egy name adattagot is hozz létre mindkettőben
+    3. Hozz létre egy device komponenst 
+    4. Hozz létre 1-1 tömböt, amelyekbe beleírod a gyártó 3-3 telefontípusát (S7, S8, S9; P8, P9, P20)
+    5. Hívd meg a templateben mindkét komponenst, úgy hogy átpasszolod a cég nevét a gyerek komponensnek, valamint ngForral a tömb elemeit is.
+    6. Jelenítsd meg a gyártó nevét és a típusait 1-1 kártyában

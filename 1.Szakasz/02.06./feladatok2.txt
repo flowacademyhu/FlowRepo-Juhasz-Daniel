@@ -1,0 +1,28 @@
+Feladatok shell script:
+
+Készíts programot, amely megvizsgálja hány paraméterrel indították el és írja is ki azt!
+	Ha a programot nem egy paraméterrel indították írjon ki hibaüzenetet is!
+
+Készíts programot, amely kiírja, hogy hány paramétert kapott a parancssorban, mi volt az első 	paraméter és mi a program neve!
+
+Készíts programot, amely külön sorban kiírja az összes paraméterét, sorszámmal ellátva!
+
+Hasonlisd össze a program parameterül kapott számait ird ki a a kisebbik számot
+	ellenőrizd le, hogy pontosan két paramétert kapott-e a program
+	ellenőrizd h páros számok-e a paraméterül kapott számok
+	csak 0-nal nagyobb számokat összehasonlítását végezzük el!
+	ellenőrizd hogy a paraméterül kapott számok valóban számok-e
+
+Irj egy scriptet ami egy nevet vár
+	ha Zsolti a név, akkor "te vagy a legjobb Linux mentor!"
+	ha Tasi a név, akkor "te vagy a legjobb Js mentor!"
+	ha Feri a név, akkor "te vagy a legjobb Go programozó!"
+	egyeb esetben pedig, "hello diák!"
+
+
+adat.dat-al kell dolgozni nézzük meg, hogy létezik-e a file. Ha nem létezik, irjunk hibaüzetet!
+	1, kérd el a feldolgozandó személy sorszámát
+	2, számold meg az adat.dat-ban lévő rekordok számát ellenőrizd le, hogy helyes sorszámot 	kaptál-e ha nem, akkor lépj ki a programból
+	3, mensd el az adatmezőket külön-külön változókba!
+	4, számold ki az aktuális személy hány éves ehhez kérd el a géptől, h milyen év van most!
+	5, ha házas, irasd ki a nevet, hogy hány éves, hol lakik, és hogy házasságban él, valamint a 	gyerekei számát ha nem házas, irasd ki a nevet, hogy hány éves, hol lakik, a csaladi 	állapotát, ha nincs gyereke akkor azt, hogy még nincs gyereke, egyebkent a gyerekei számát.nan

@@ -1,0 +1,256 @@
+5 - Könyvtárkezelés
+Anonymous
+Last updated Sep 18, 2017 by
+Anonymous
+Aktuális könyvtár
+
+A felhasználók alapértelmezésben, belépés után a saját könyvtárukba kerülnek, amelynek a jele ”~„. Alapértelmezés az is, hogy az aktuális könyvtár megjelenik a várakozásijelben. Ha változtattunk várakozásijelen és már nem az alapértelmezett könyvtárban állunk, szeretnénk tudni az aktuális könyvtár nevét, útvonalastól együtt. Ezt a pwd parancs begépelésével tehetjük meg.
+
+pwd
+
+A joska nevű felhasználó például ezt láthatja, ha a saját könyvtárában áll:
+
+/home/joska
+
+A könyvtár tartalmának listázása
+
+Általában szeretnénk a könyvtár tartalmát listázni. Szeretnénk látni milyen újabb könyvtárakat és fájlokat tartalmaz. Erre a célra az „ls” parancsot használhatjuk.
+ls alapok
+
+ls
+
+Az ls kapcsolók nélkül kiadva az aktuális könyvtár tartalmát mutatja. Ha először lépünk be egy linuxos hozzáférésünkre, akkor valószínűleg nem találunk a saját könyvtárunkban állományt.
+
+A rejtett állományok abban különböznek a többitől, hogy ponttal (.) kezdődnek. Ha először lépünk be egy hozzáférésünkre valószínűleg már vannak rejtett fájlok, csak nem látjuk őket. A -a kapcsolóval megtekinthetők a rejtett fájlok is:
+
+ls -a
+
+Egy következő kapcsoló a fájlokról a lehető legtöbb információt adja számunkra, ez a -l. Long azaz hosszú kimenet kapunk a kapcsolóval:
+
+ls -l
+
+Ha még nincs más könyvtárunk használjuk az „a” kapcsolót is:
+
+ls -la
+
+Az eredmény valami ilyesmi lehet:
+
+összesen 28
+drwxr-xr-x 3 joska joska 4096 febr  24 23.49 .
+drwxr-xr-x 4 root  root  4096 dec   13 18.37 ..
+-rw------- 1 joska joska   92 febr  25 00.04 .bash_history
+-rw-r--r-- 1 joska joska  220 dec   13 18.37 .bash_logout
+-rw-r--r-- 1 joska joska 3184 dec   13 18.37 .bashrc
+drwx------ 2 joska joska 4096 febr  24 23.49 .mc
+-rw-r--r-- 1 joska joska  675 dec   13 18.37 .profile
+
+Az ls parancsnak megadható, hogy melyik könyvtárat listázza számunkra. A gyökér könyvtár listázása a következő módon történhet:
+
+ls /
+
+Vagy a /bin könyvtár listázása:
+
+ls /bin
+
+Az ls hosszú kimenete
+
+Fentebb már láttuk a -l kapcsoló hatását (-a -val együtt):
+
+összesen 28
+drwxr-xr-x 3 joska joska 4096 febr  24 23.49 .
+drwxr-xr-x 4 root  root  4096 dec   13 18.37 ..
+-rw------- 1 joska joska   92 febr  25 00.04 .bash_history
+-rw-r--r-- 1 joska joska  220 dec   13 18.37 .bash_logout
+-rw-r--r-- 1 joska joska 3184 dec   13 18.37 .bashrc
+drwx------ 2 joska joska 4096 febr  24 23.49 .mc
+-rw-r--r-- 1 joska joska  675 dec   13 18.37 .profile
+
+A kimenet első elemének a neve egy pont (.), a másodiknak pedig két pont (..). Az egy pont magában az aktuális könyvtárat jelképezi, a két pont egymás után pedig a szülőkönyvtárat jelképezi.
+
+A parancs először az állományról kiírja, hogy milyen fajta állomány. A Unix alapú rendszerekben a könyvtárak is állományként vannak kezelve, ezért a könyvtárat egy speciális állománynak is tekinthetjük. Így van ez a számítógép hardver eszközeivel is. Minden eszköz egy állományként érhető el a rendszerben. Ezért szoktuk mondani, hogy a Linuxban minden állomány.
+-	rw-r--r--	1	joska	joska	3184	dec 13 18.37	.bashrc
+az állomány típusa	jogok	linkek száma	tulajdonos	csoport	méret	utolsó módosítás dátuma	az állomány neve
+
+
+Minden sor 10 darab karakterrel kezdődik. Ebből az első az állomány típusa, a többi kilenc az állományhoz tartozó jogokat mutatja.
+
+A következő szám az állományra mutató linkek számát mutatja. A linkekről lásd később a link létrehozása című részt.
+
+A linkek száma után az állomány tulajdonosa, amit a csoport neve követ. A Debian GNU/Linux rendszerekben egy felhasználó létrehozásakor létrejön egy a nevével azonos csoport is. Így lehet, hogy a csoportnév megegyezik a tulajdonos nevével.
+
+A következő szám az állomány mérete. Könyvtárak esetén itt a blokk mérettét látjuk.
+
+Ezt követi az utolsó módosítás dátuma, és végül az állomány neve.
+
+Ha listázott elem egy könyvtár, akkor a méret résznél a fájlrendszerben használatos blokkméret fog megjelenni.
+Könyvtárak és fájlok megkülönböztetése
+
+A könyvtárak és fájlok a -l kapcsolóval megkülönböztethetők, de előfordul, hogy ezen kapcsoló nélkül is szeretném látni, hogy mivel van dolgom. Ezt a -F kapcsolóval tehetem meg:
+
+ls -F
+
+Könyvtár méret
+
+A fájlok és könyvtárak számára legkisebb lefoglalható egység a fájlrendszertől függ. ext3 és ext4 fájlrendszeren ez 4096 bytes. Ha futtatjuk a ls -ld parancsot, akkor látjuk az adott könyvtár számára mennyi helyet foglalunk:
+
+ls -ld munka
+
+A kimenet pedig ehhez hasonló lehet:
+
+drwxr-xr-x joska joska 4096 márc   9 10.26 munka/
+
+A könyvtár számára a 4096 a kezdeti lefoglalt hely (fájlok számára is). A könyvtárban eltárolt fájlok sokasodása után ez nőhet, a következő például 4096 valamelyik szorzatára.
+
+Az alábbi parancs létrehoz néhány fájlt:
+
+mkdir munka
+cd munka
+
+Hozzunk létre 200 fájlt:
+
+for ((i=0; i<200; i++)); do touch aaaaaaaaaa_$i; done
+
+Nézzük meg a ls -ld kimenetét a könyvtáron:
+
+ls -ld .
+drwxr-xr-x joska joska 12288 márc 12 07.03
+
+Ezek után az aktuális könyvtár listázásánál a méret: 12288
+
+Ne felejtsük el, hogy más fájlrendszernél ezek az értékek eltérhetnek.
+Külön bejegyzések
+
+Egy könyvtár vagy fájl listázása esetén a jogok után ritka esetben megjelenhet plusz (+) vagy pont (.) karakter:
+
+drwxr-xr-x+ joska joska 12288 márc 12 07.03 Nev
+
+vagy:
+
+drwxr-xr-x. joska joska 12288 márc 12 07.03 Nev
+
+A plusz (+) karakter arra utal, hogy a fájlhoz (vagy könyvtárhoz) külön ACL bejegyzések is tartoznak. Ha pont (.) karakter van a jogok után, akkor ez SELinux címkék bejegyzésére utal.
+
+Ha mindkettő van (ACL és SELinux címke is), akkor a plusz (+) karakter látszik. További információk az ACL és az SELinux lapokon.
+Könyvtár létrehozása
+
+Könyvtárakat az „mkdir” paranccsal hozhatunk létre. Az mk, a make szóból, a dir pedig a directory szóból származik. Paraméterként több könyvtárat is megadhatunk. A linuxos, illetve unixos rendszerek kis és nagybetű érzékenyek. A következő példában szereplő nevek két külön könyvtárat jelölnek:
+
+    Informatika
+
+    informatika
+
+A parancs szintaxisa:
+
+mkdir konyvtar_neve ...
+
+A mai Linuxok már UTF-8-as kódolást használják a rendszer minden szintjén, így használhatunk ékezetes könyvtárneveket is. Ezzel azonban gond lehet, ha más rendszerre visszük a könyvtárainkat.
+
+Egyszerre több könyvtárat is létrehozhatunk, ha szóközzel tagolva felsoroljuk, vagy kapcsos zárójelek között vesszővel tagoljuk azokat. Utóbbi esetben szóköz nem lehet köztük:
+
+mkdir elso masodik harmadik
+
+mkdir {elso,masodik,harmadik}
+
+Ha útvonalat is megadunk egy könyvtár létrehozásánál a -p kapcsoló segítségével, az útvonalban szereplő nem létező könyvtárak automatikusan létrejönnek:
+
+mkdir -p /home/joska/munka/dolgozok/human/gizi
+
+Könyvtárcsere
+
+Ha már van könyvtárunk szeretnék „belépni” a könyvtárba.
+
+A példa kedvéért, hozzuk létre saját könyvtárunkban a jarmu nevű könyvtárat. Tegyük fel, hogy a saját könyvtárunk a /home/joska. A „pwd” parancs tanúsága szerint pedig ebben a könyvtárban állunk. Kiadtuk a könyvtárlétrehozás parancsát:
+
+mkdir jarmu
+
+Szeretnénk az új könyvtárba belépni, vagyis könyvtárat cserélni. Erre a „cd” parancs ad lehetőséget:
+
+cd jarmu
+
+A „pwd” paranccsal ellenőrizzük a könyvtárváltás meglétét.
+
+A „cd” parancs első „c” betűje a „change” szóból van, a „d” betű pedig a „directory” szóból.
+
+Ha jól dolgoztunk a pwd parancs kimenete most a következő:
+
+/home/joska/jarmu
+
+Most a „jarmu” könyvtáron belül hozzunk létre egy „szeker” nevű könyvtárat:
+
+mkdir szeker
+
+Lépjünk bele:
+
+cd szeker
+
+Ezek után a pwd kimenete:
+
+/home/joska/jarmu/szeker
+
+Most vissza kellene lépni az előző könyvtárba. Az előző könyvtárat két pont jelképezi:
+
+..
+
+Másként, ha most éppen a /home/joska/jarmu/szeker könyvtárban állunk akkor a két pont a /home/joska/jarmu könyvtárat jelképezi. Ha szeretnénk visszalépni a jarmu könyvtárba, akkor megtehetjük, hogy a teljes útvonal megadásával így lépek vissza:
+
+cd /home/joska/jarmu
+
+De ugyanezt az eredményt érhetjük el, ha cd paranccsal használjuk a két pontot:
+
+cd ..
+
+Ez utóbbi parancs bármely könyvtárban is állunk, azt eredményezi, hogy egy könyvtárral feljebb kerülünk.
+
+Ugyanígy használhatjuk a gyökérkönyvtár jelét a fájlrendszer gyökerébe jutáshoz:
+
+cd /
+
+Ezzel a fájlrendszer gyökerébe jutunk.
+
+Van még egy különleges karakter, amely a saját könyvtárunkat jelképezi. Ez a következő:
+
+~
+
+Tilde karakternek hívják. Bármely könyvtárban is állok a könyvtárstruktúrában, ha kiadom a következő parancsot, a saját könyvtárunkba fogok jutni:
+
+cd ~
+
+Vegyük észre, hogy a várakozási jelben is szerepel egy tilde karakter (Legtöbb linuxos terjesztésben így van beállítva a várakozási jel).
+Könyvtár törlése
+
+Az rmdir parancs segítségével minden megadott üres könyvtárat törölhetünk:
+
+rmdir konyvtarnev
+
+Itt is használható a -p kapcsoló. A parancs így a legbelső könyvtárat törli, ha az üres, és utána a többit, egyenként. Legyen a példa kedvéért egy ilyen könyvtárszerkezet:
+
+egy/ketto/harom
+
+Kiadjuk a törlésre az utasítást:
+
+rmdir egy/ketto/harom
+
+A parancs először törli a harom könyvtárat, ha az üres. Utána a ketto könyvtárat, ha az előző sikeres volt és a ketto üres. Végül ha az előző kettő sikeres volt, akkor törli az egy könyvtárat is.
+Könyvtár átnevezése
+
+A könyvtár átnevezését az mv paranccsal hajtjuk végre, amely az angol move szóból származik. Magyarul mozgatás jelent. A parancsot valójában arra találták ki, hogy egy állományt egy másik helyre mozgassunk. Viszont ha a mozgatás helye a kiindulási pont, akkor csak átnevezés történik.
+
+Szintaxisa a következő:
+
+mv eredetikonyvtar ujkonyvtar
+
+Könyvtár átmozgatása
+
+mv konyvtar001 konyvtar002/
+
+A konyvtar002 könyvtárba mozgatjuk a konyvtár001 nevű könyvtárat.
+Könyvtárak másolása
+
+cp -R dir1 dir2
+
+Ha a dir2 már egy létező könyvtár, akkor annak tartalmába másol! Ha nincs dir2 könyvtára akkor az aktuális könyvtárban létrehozza a dir2 könyvtárat.
+
+A -R kapcsoló hatására valójában rekurzív másolásra adunk parancsot, de könyvtármásolásnál éppen ezt szeretnénk.
+Könyvtárnevek mérete
+
+A könyvtárnevek maximális hossza 256 bájt. De az ékezetesekkel duplán kell számolnunk.

@@ -1,0 +1,20 @@
+1. Hozz létre egy "feladat2" mappát a felhasználói home-ban!
+2. Hozz létre egy üres fájlt ebbe a mappába, neve legyen ures.txt!
+3. Hozz létre egy fájlt, amiben ez a szöveg szerepel: "Ez nem üres fájl!". A neve legyen nemures.txt!
+4. Készíts egy "linkek" nevű mappát a feladat2-be!
+5. Nevezd át az ures.txt-t uresfajl.txt-re!
+6. Készíts merev linket (hardlink) a nemures.txt fájlra, és helyezd el a "linkek" mappában!
+7. Készíts szimbolikus linket az uresfajl.txt-re! 
+8. Nézd meg a fájlok statisztikáit! (stat parancs)
+9. Töröld ki a hardlinket! 
+10. Töröld ki az uresfajl.txt állományt!
+
+1. Hozd létre a grepTest.txt állományt a slacken lévő szöveggel!
+2. Írasd ki az összes olyan sort, ami tartalmazza a "sor" szót!
+3. Írasd ki a dátumokat!
+4. Írasd ki azokat a sorokat, amelyek "Ez" szöveggel kezdődnek, és "sor" szöveggel végződnek!
+5. Írasd ki a számlaszámokat!
+6. Írasd ki azokat a  sorokat, amelyek első karaktere a vagy b vagy c vagy d, és 4 betűből állnak!
+7. Írasd ki az email címeket! Figyelj a pontos illesztésre!
+8. Ismerkedj meg a wc parancs használatával! 
+9. Próbáld meg az előző parancsok kimenetét átirányítani pipe segítségével a wc parancsba, hogy megszámolja az eredményül kapott sorokat!

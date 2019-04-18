@@ -1,0 +1,34 @@
+#!/bin/bash
+
+if ! [ -f adatok.dat ]
+then
+	echo "Nem létezik"
+	exit 1
+fi
+
+echo "Add meg a sorszámot"
+read SORSZAM
+rekordok=`wc -l adatok.dat | cut -f 1 -d " "`
+echo $rekordok
+if [ $SORSZAM -ge $rekordok ]
+then
+	echo "Nagy a sorszám"
+	exit 1
+fi
+
+felhaszánló=`egrep "^$SORSZAM;.*" adatok.dat`
+echo $felhasználó
+nev=`echo $felhasználó | cut -d ";" -f 2`
+szulhely=`echo $felhasználó | cut -d ";" -f 3`
+szulido=
+anyjaneve=
+leanykodineve=
+lakhely=
+nem=
+csaladiAllapot=
+gyermekekSzama=
+
+mostaniEV=`date +%Y`
+szulEv=`echo $szulido | cut -f 1 -d " "`
+echo "Ennyi idős: " $((mostaniEv - szulEv))
+

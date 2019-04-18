@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SZÁM=$1
+for i in $@
+do
+	if [ $SZÁM < $i ]
+	SZÁM=$i
+	fi
+done
+echo $SZÁM

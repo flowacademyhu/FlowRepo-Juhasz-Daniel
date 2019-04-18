@@ -1,0 +1,16 @@
+1.Hozd létre az alábbi modulokat:
+work
+car
+animal
+2. Az alábbi komponenseket hozd létre a modulokban:
+work: all-work, profession, housework
+car: company-car, personal-car, sport-car
+animal: pet, wild-animal
+3. A profession komponensbe csinálj egy tömböt, amiben felsorolsz 5 foglalkozást, majd ezt jelenítsd meg ngFor-ral a html oldalon. A komponensnek legyen egy title változója is, aminek az értéke: ‘Profession’
+4. A housework komponensbe csinálj egy tömböt, amiben felsorolsz 5 otthoni munkát, majd ezt jelenítsd meg ngFor-ral a html oldalon. A komponensnek legyen egy title változója is, aminek az értéke: ‘Housework’
+5. Legyen mindkét komponensnek még egy weLikeIt boolean változója, aminek adjunk is tetszőleges értéket. 
+6. Jelenítsd meg az all-work komponensbe a profession és a housework komponenst az alábbi módon:
+Az all-work komponensben készíts egy kártyát, aminek a col-8 classt adod.
+Ebben a kárytában legyen két kártya egymás mellett, amiknek a címei a komponensek title értékei legyenek (passzoljuk át az adatot, ne csak kiírjuk :D). Mindkét kártya kapja a col-5 classt. Legyen egy kis hely a két kártya között. Ezekbe a kártyákba jelenítsük meg a komponenseket
+7. A kártyák header-je legyen zöld ha a weLikeIt true, piros ha false.
+8. Legyen egy gomb mellette, aminek a megnyomására a weLikeIt változó megváltozik. A gomb nevét a változó értéke befolyásolja. Ha false: ‘I like it’, ha true: I don’t like it’ legyen. Ez dinamikusan változzon

@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Név:"
+read NAME
+if [ $NAME  = "Zsolti" ]; then
+ echo "te vagy a legjobb Linux mentor!"
+elif [ $NAME = "Tasi" ]; then
+echo "te vagy a legjobb Js mentor!"
+elif [ $NAME = "Feri" ]; then
+echo "te vagy a legjobb Go programozó!"
+else
+echo  "hello diák"
+fi

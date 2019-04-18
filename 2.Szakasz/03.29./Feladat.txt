@@ -1,0 +1,55 @@
+Készíts egy carService-t
+A servicenek legyen 3 metódusa: getAllCars(), getSportsCars(), getFamilyCars()
+A végpontok értelemszerűen a két objektum egyikét adják vissza, kivéve a getAllCarst, mert az mind a kettőt adja vissza ömlesztve.
+familyCars = [{
+   id: 1,
+   manufacturer: Opel,
+   seats: '5',
+   type: 'Astra’',
+   color: white
+ }, {
+   id: 2,
+   manufacturer: Audi,
+   seats: '5',
+   type: ‘A3',
+   color: 'gray'
+ }, {
+   id: 3,
+ manufacturer: 'Seat',
+ seats: '2',
+ type: 'Cordoba',
+ color: 'green'
+ }];
+
+sportCars = [{
+   id: 4,
+   manufacturer: 'Ferrari',
+   seats: '2',
+   type: 'Enzo',
+   color: 'red'
+ }, {
+   id: 5,
+   manufacturer: 'Aston Martin',
+   seats: '2',
+   type: 'DB7',
+   color: 'black'
+ }, {
+   id: 6,
+ manufacturer: 'Bugatti’,
+ seats: '2',
+ type: 'Veyron',
+ color: 'white'
+ }];
+    4. Készíts Interfacet, ami a DTO-knak felel meg. (ICars)
+    5. Készíts egy cars komponenst
+    6. Injektáld be a carService komponenst
+    *7. Kérd le az getAllCars() metódust, aminek az adatait eltárolod egy tömbbe.
+    8. Az kapott értékeket jelenítsd meg html oldalon
+    9. Készíts egy filter komponenst, ami mindössze egy input mezőt tartalmaz, aminek az értékét bekötjük egy number változóba
+    10. A filter komponenst hívd meg a cars komponensbe, ahova a 9-es pontban létrehozott numbert átpasszolod. (output. ezt ugye dinamikusan kellene tudni változtatni és mindig az aktuális beírt értéket küldje fel a szülő komponensnek)
+    11. Az átpasszolt number érték adja meg azt, hogy hány kocsi jelenik meg a html oldalon. (Ha a beírt input mezőbe beírjuk, hogy 4, akkor csak a tömb első 4 elemét jelenítsük meg, ha 5, akkor 5öt stb.)
+
+
+    *7. A metódusok lekért értékét 1db tömbbe tárold. Lehívásnál íródjanak felül az értékek. Később látni fogjuk, ez hogyan valósul meg.
+    8. Készíts egy selectet, amivel ki tudod választani az adott kocsi típust, majd a kiválasztott értékre, kérődjön le a az adott típushoz tartozó metódus. a megkapott értékeket egy kártyában jelenítsd meg. Ezt úgy készítsd el, hogy egy adott html legyen és csak a változók értékei változzanak meg a különböző metódusok meghívásakor.
+

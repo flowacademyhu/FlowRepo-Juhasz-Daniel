@@ -1,0 +1,7 @@
+1. Készítsünk egy új projektet task_manager néven.
+2. Generálj tasks modult a modules mappába.
+3. Generálj egy important-tasks komponenst ide modules/tasks/components/.
+4. Generálj a már meglévő komponens mellé egy other-tasks komponenst.
+5. Nézzük át közösen a projekt struktúrát.
+6. Az app.component-be inicaizáljunk egy name (string), egy id (number) és egy isImportant (boolean) változót
+7. Ezeket jelenítsd meg html oldalon

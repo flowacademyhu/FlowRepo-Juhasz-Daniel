@@ -1,0 +1,5 @@
+1. Készítsetek két input mezőt ahova számokat lehet bevinni
+2. A két input mezőnek az értékét számolja ki egy függvény. Ez egy 'Count' gomb megnyomására menjen végbe
+3. A gomb megnyomására jelenjen is meg a html-ben a beírt érték
+4. Ha ez az érték nagyobb mint 1000, írjuk ki, hogy 'Big number'
+5. Amennyiben kisebb azt, hogy 'Small number'

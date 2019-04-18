@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(19, 19, 105);
+}
+
+.users {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  margin: 0;
+}

@@ -1,0 +1,3 @@
+1. Készíts egy absztrakt osztályt "Telescope" néven, mely egy távcsövet valósít meg. Az osztály rendelkezzen egy "diameter" nevű egész számokat tároló adattaggal, valamint egy "focalLength" nevűvel. Ezek csak az adott osztályból legyenek láthatóak! Készíts kétparaméteres konstruktort, és getter-setter függvényeket! Az osztály legyen String formára alakítható!
+2. Származtass le egy "Newtonian" osztályt a Telescope osztályból. Az örökölteken kívül legyen még egy "needToCollimate" logikai adattagja! Készíts három paraméteres konstruktort, továbbá getter-setter függvényt az új adattagra! 
+3. Készíts egy Main osztályt, melyben adott a main metódus, mely példányosít két Newtonian objektumot, és kiírja őket konzolra!

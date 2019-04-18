@@ -1,0 +1,11 @@
+1.	Írj egy absztrakt Hulladek osztályt! Legyen benne két String konstans: HULLADEK_FEM (értéke "fem"), HULLADEK_UVEG(értéke "uveg")! Legyen az osztálynak egy alapanyag adattagja, amelyet csak konstruktorból lehet beállítani, valamint egy leiras és egy tomeg adattagja! Készíts egy paraméteres konstruktort, amely ha  az érkező paraméter fém vagy üveg, akkor a megfelelő módon beállítja az alapanyagot, ha pedig nem ezek közül való, akkor állítsd arra, amit a konstruktor paraméterül kap. A leiras-t és a tomeg-et is állítsa be a konstruktor: a leírás legyen üres String, a tömeg pedig 1!  Írj egy megsemmisit() metódust, amely kiírja, hogy mit semmisítünk meg, és ez milyen és mennyi anyag!
+2.	Írj egy Ujrahasznosithato interfészt, amely deklarál egy ujrahasznosit() metódust!
+3.	Hozz létre három osztályt: Palack, SorosDoboz és KartonDoboz, amelyek a Hulladek osztályból származnak! A Palack és a SorosDoboz implementálják az Ujrahasznosíthato interfészt, a KartonDoboz pedig nem. Írj egy egy paraméteres konstruktort, amely az adott hulladék leírását kapja paraméterként! Állítsd be az alapanyag-ot is, méghozzá úgy, hogy minden Palack üvegből van, minden SorosDoboz fémből van, és minden KartonDoboz papírból készült! Több konstruktor ne legyen!  Az ujrahasznosit() metódus írja ki, hogy milyen anyagot hasznosítottunk újra! 
+Az újrahasznosítható osztályoknak írd felül a megsemmisit() metódusát! A felülírt metódusnak meg kell hívnia az ősosztály megsemmisit() metódusát, valamint a saját ujrahasznosit() metódusát, ha van neki!
+4.	Írj egy futtatható osztályt, amely parancssori argumentumban kap egy fájlnevet! Olvasd be a fájl tartalmát soronként! Egy sor tartalma:
+
+  hulladektipus;leiras 
+(pl.: Palack;tejesuveg)
+
+ Feltételezhetjük, hogy csak   Palack, SorosDoboz és KartonDoboz típusú hulladékok jönnek, és az input helyes. A beolvasott inputból hozz létre Palack, SorosDoboz és KartonDoboz objektumokat, amiket ments le egy közös tárolóba.
+ Készíts ujrahasznosit statikus függvényt, ami meghívja a tárolón lévő minden objektum megsemmisit() metódusát! Ügyelj rá, hogy minden lehetséges kivételt (főleg FileNotFoundException és IOException) elkapj, és adj a felhasználónak üzenetet arról, hogy hiba keletkezett a futás során!

@@ -1,0 +1,3 @@
+Készíts programot, amely megvizsgálja hány paraméterrel indították el és írja is ki azt!
+	Ha a programot nem egy paraméterrel indították írjon hibaüzenetet!
+	

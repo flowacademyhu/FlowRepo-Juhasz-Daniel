@@ -1,0 +1,24 @@
+Sitebuilding – Weboldal készítése:
+Téma: Ételrendelő honlap
+Részei:
+-	fejléc (header)
+-	menü (dropdown)
+-	fő rész (törzs)
+-	lábléc (footer)
+* Header és Footer részek kiszervezhetőek és később beszúrhatóak külön-külön
+Nyomonkövetés (GitHub)
+-	repository: html-css
+-	folyamatosan feltölteni
+-	linket elküldeni a mentornak
+Oldalak:
+-	főoldal
+-	étlap
+-	kapcsolat
+-	rendelés
+Funkciók: 
+-	rendelési űrlap
+-	részletes kínálat (illusztráció, leírás, hozzávalók, ár)
+-	navigációs menü
+-	lista, hivatkozás, háttérkép
+-	videó beszúrása
+Bemutató: 2019. március 13. (szerda)

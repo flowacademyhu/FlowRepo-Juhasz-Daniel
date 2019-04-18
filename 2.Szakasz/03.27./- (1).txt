@@ -1,0 +1,32 @@
+1. Készíts egy bajnokság komponenst
+   2. Készíts további 3 komponenst. man-utd, arsenal, liverpool néven
+   3. A komponensek selectorját nevezd át, az alábbi módon, értelemszerűen:
+   manchester, ars, pool
+   4. A 3 komponens mindegyike tartalmazzon egy string tömböt, players néven (lentebb felsolom őket)
+   5. Egy string változó is kerüljön a komponensekbe, ‘stadium’ néven és egy ‘name’ néven, valamint egy number változó attendance néven:
+man-utd:
+name: Manchester United
+players: ‘Martial’, ‘De Gea’, ‘Pogba’
+stadium: ‘Old Trafford’
+attendance: 76 023
+arsenal:
+name: Arsenal
+‘Özil’, ‘Ramsey’, ‘Leno’
+stadium: ‘Emirates’
+attendance: 60 012
+liverpool:
+name: Liverpool
+‘Salah’, ‘Mané’, ‘Firmino’
+stadium: ‘Anfield’
+attendance: 54 033
+   6. A bajnokság komponensbe hívd meg mind a 3 komponenst. A komponensek adattagjait add át a bajnokság komponensnek.
+   7. Egy selecttel legyen kiválasztható, mind a 3 csapat.
+   8. Amelyiket kiválasztod, az alábbi módon jelenjenek meg az adatai
+   9. Egy kártyába kerüljön 1-1 csapat. A fejlécbe h5 tagbe írd ki az adott csapat nevét, amit az átpasszolt adatból nyersz ki. A név mellé kerüljön egy labda ikon a fontawesome ikonok közül (nem muszáj labdának lennie)
+   10. A kártya felső részén jelenítsd meg három játékos nevét, ABC sorrendbe rendezve.
+   11. Random generátorral jelölj ki közülük egyet, aki a csapatkapitány lesz. Az ő nevét jelöld félkövérrel
+   12. A kártya bal alsó sarkába kerüljön a nézőszám, ezerre kerekítve
+   13. A jobb alsóba pedig a stadion neve, végig nagybetűvel
+   14. Készíts egy gombot, aminek a megnyomásával a 3 csapatot random sorrendbe kiírja egymás alá, úgy hogy a legelső neve mellé odakerül, hogy ‘Winner!’
+   +1. Plusz pontért ezt úgy csináld meg, hogy a Manchester nyerjen! :smile:
+Szerk.: Kicsi könnyítés. Outputok helyett használjunk inputokat az alábbi módon. A bajnokság komponensbe adjuk meg az adatokat és azt passzoljuk le a gyerek komponenseknek. Így már az input használható, csak kevésbé logikus a feladat. A lepasszolt adatokat pedig jelenítsétek meg a gyerek komponensekbe, amiket meghívtok a bajnokságkomponensbe. (edited) 

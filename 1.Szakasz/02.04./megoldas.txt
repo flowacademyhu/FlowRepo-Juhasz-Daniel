@@ -1,0 +1,260 @@
+Milyen processzek futnak a rendszerben? ps
+
+Jelenítse meg a futó processzek listáját fa elrendezésben! pstree
+
+Milyen processzek futnak most a rendszerben, amelynek a tulajdonosa a root? ps axu | grep "^root.*"
+
+Mi a processz id-je az init nev processznek? ps -ef | grep ".*init.*"
+
+Jelentkezzen be még egy példányban és indítsa el az mc nev programot! mc
+
+A másik Putty ablakban kérdezze le ennek a Commandernek a process id-jét, majd küldjön neki egy TERM szignált! (A megoldásban az
+Ön bejelentkezési nevét a <username>, a leolvasott processz id-t <PID> szóval jelöltük). kill -15 (mcszáma)
+
+Egyetlen paranccsal terminálja az összes processzét! killall -u dani
+
+Jelenítse meg a futó processzek listáját terhelés szerint! Monitorozza a terhelést folyamatosan! 
+
+Keresse meg a rendszer összes .conf kiterjesztés fájlját és azok listáját írja a /tmp/find-<username>.txt fájlba! Mivel ez sokáig fut, a
+keresést a háttérben végezze! find / -name *.conf > /tmp/find-mint.txt &
+
+Végezze el az elz feladatot úgy, hogy a hibaüzenetek ne kerüljenek a képernyre! find / -name *.conf > /tmp/find-mint.txt & 2> /tmp/errors.txt &
+
+Végezze el újra az elz feladatot úgy, hogy az alacsony prioritással fusson! sudo top és a nice parancs
+
+
+
+
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, amelyek tartalmazzák az sh karakterláncot! egrep sh /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, amelyek nem tartalmazzák az sh karakterláncot! egrep -v sh /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, amelyek r betvel kezddnek! egrep "^r" /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, amelyek false-ra végzdnek! egrep "false$" /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, akiknek a login neve f-fel kezddik! egrep ^f.*$ /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a felhasználó neveket, akiknek a login nevében szerepel a tom szó! egrep "^[^:]*tom.*:" /etc/passwd
+
+Az /etc/passwd fájlból jelenítse meg azokat a sorokat, amelyben a login név pontosan root! egrep "^root:" /etc/passwd
+
+Hány olyan felhasználó van a rendszerben, akinek a login neve magánhangzóval kezddik? egrep "^[eiuoa]" /etc/passwd | wc -l
+
+Hány olyan felhasználó van a rendszerben, akinek a shellje nem /bin/bash? grep -v "/bin/bash$" /etc/passwd | wc -l
+
+Hány blokkos eszközfájl van a /dev könyvtárban? Hány karakteres eszközfájl van ugyanebben a könyvtárban? ls -l /dev | egrep "^b" | wc -l  ÉS  ls -l /dev | egrep "^c" | wc -l
+
+Jelenítse meg az /etc/bash.bashrc fájl azon nem üres sorait, amelyek nem megjegyzések (azaz nem #-tel kezddnek)! egrep -v "^$" /etc/bash.bashrc | egrep -v "^#" /etc/bash.bashrc
+
+Az elz feladatot oldja meg úgy, hogy ezeket a sorokat a home könyvtárába, egy bash.txt nev fájlba írja ki! egrep -v "^\#" /etc/bash.bashrc >> /home/dani/bash.txt
+
+
+
+
+
+
+Hány olyan könyvtár van a /etc könyvtárban, melynek csoportjogai: r-x? egrep "^.*r-x.*$" /etc | wc -l
+
+***Jelenítse meg a root felhasználó aktuális havi bejelentkezéseinek történetét!
+
+Be van most jelentkezve a rendszergazda? Ha igen, mit futtat most? top
+
+***Hány különféle shell létezik a passwd fájlban?
+
+***Írassa ki a bejelentkezettek listáját! Gondoskodjon arról, hogy ha valaki több példányban jelentkezett be, akkor is csak egyszer jelenjen
+meg a neve! w command
+
+Kik azok a felhasználók, akik ebben a hónapban bejelentkeztek a szerverre (a reboot felhasználó nem érdekel bennünket)? last | egrep -v reboot
+
+Írassa ki a felhasználók neveit ábécé sorrendben! last | egrep -v reboot | sort
+
+A /etc/passwd file-ban hány sor kezddik f-fel? cat /etc/passwd | egrep "^f" | wc -l
+
+Jelenítse meg a /etc/passwd els három sorát! head -n3 /etc/passwd
+
+Jelenítse meg a /etc/passwd utolsó hét sorát! tail -n7 /etc//passwd
+
+Jelenítse meg a felhasználók névsorából az els, majd az utolsó 12 nevet! Meg tudja oldani ezt egy sor begépelésével is? home-n belül ls | head -n12 ÉS ls | tail -n12  SZERINTEM NEM mert akkor az első 12-t adná vissza
+
+Melyik felhasználó jelentkezett be elször ebbe a hónapban? last | egrep -v reboot | tail -n1
+
+Hány sora van a /etc/passwd file-nak? cat passwd | wc -l
+
+Hány karakter van ugyenezen file utolsó 8 sorában? cat passwd | tail -n8 | wc -c
+
+***Hány karakter van az /etc könyvtár tartalomjegyzékében? ls -l | wc -c
+
+Hány alkalommal jelentkezett be a root felhasználó ebben a hónapban? last | egrep root
+
+Jelenítse meg a /etc/passwd tartalmát rendezve! cat /etc/passwd | sort
+
+***Jelenítse meg visszafelé rendezve a passwd fájlból kinyert UID-eket! (UID = user id) id
+
+***Melyik a legnagyobb UID a /etc/passwd fájlban?
+
+Jelenítse meg az ábécébe rendezett passwd file tartalmának els 15 sorát! cat passwd | sort | head -n15
+
+Hány sorból és karakterbl áll az elz parancs kimenete?  cat passwd | sort | head -n15 | wc -l    ÉS     cat passwd | sort | head -n15 | wc -c
+
+***Írassa ki a felhasználók nevét úgy, hogy minden ékezetes karaktert cseréljen ékezet nélkülire, a szóköz karaktert pedig helyettesítse _
+karakterrel! https://stackoverflow.com/questions/2871181/replacing-some-characters-in-a-string-with-another-character
+
+***A felhasználók listájában törölje az összes j karaktert! https://unix.stackexchange.com/questions/104881/remove-particular-characters-from-a-variable-using-bash
+
+Írassa ki a /etc/passwd tartalmát visszafelé! cat /etc/passwd | sort -r
+
+Feladat 001
+Hozza létre a saját könyvtárban a „kerekpar” nev könyvtárat.
+Ezt követen hozza létre a következ állományokat a saját „kerekpar” nev könyvtárban:
+kerek
+kormany
+vaz
+gumi
+kullo
+szelep
+
+Feladat 002
+Listázza az /usr/lib könyvtár tartalmát, a kimenetet irányítsa egy lib.txt állományba. A lib.txt fájl saját könyvtárában legyen.
+
+Feladat 003
+Írja a command.txt állományba, ha van egy varazs.txt állománya amit törölni szeretne, azt hogyan kell megvalósítani parancssorból.
+
+Feladat 004
+Hozza létre az allat.txt állományt a következ tartalommal:
+macska
+kutya
+egér
+veréb
+gólya
+galamb
+ló
+Rendezze az állomány tartalmát. A rendezett kimenetet irányítsa egy rend1.txt fájlba. A parancsok01.txt fájlba írja le milyen parancsot használt a
+rendezéshez és a létrehozáshoz.
+
+Feladat 005
+Hozza létre az allat2.txt állományt a következ tartalommal:
+zsiráf
+kígyó
+elefánt
+oroszlán
+tigris
+zebra
+Rendezze az állomány tartalmát, a kimenetet irányítsa egy rend2.txt fájlba.
+Egy parancsok05.txt állományban írja le a használt parancsokat.
+
+Feladat 006
+Adott a következ mondat:
+Megy a huszár a csatába.
+1. Hozza létre a következ könyvtárat: ~/csata
+2. Írja a képernyre egy echo paranccsal a mondatot.
+3. Második lépésként irányítsa a kimenetet a ~/csata/huszar.txt állományba.
+4. Listázza a könyvtár kinek a tulajdonában van. Az eredményt írja a tulaj.txt fájlba
+5. Írja egy parancsok06.txt állományba a feladathoz használt parancsokat.
+
+Feladat 007
+1. Jelenítse meg a root felhasználó mikor jelentkezett be utoljára.
+a. Az eredményt irányítsa a valasz007.txt fájlba.
+b. A használt parancsot fzze a parancsok.txt állomány végéhez.
+2. Jelenítse meg az aktuális könyvtárat.
+a. A használt parancsot fzze a valasz007.txt állomány végéhez.
+
+Feladat 008
+1. Készítse el a saját könyvtárban az „udvar” nev könyvtárat.
+2. Alkönyvtárak létrehozása:
+a. Az „udvar” nev könyvtárban készítse el a következ alkönyvtárakat:
+i. kut
+ii. kapu
+iii. szeker
+iv. pad
+b. A használt parancsot fzze a valasz008.txt fájl végére.
+3. A „szeker” nev alkönyvtárban készítse el lovak.txt állományt.
+a. A használt parancsot fzze a valasz008.txt végére.
+4. Hozáfzés
+a. A lovak.txt állomány végéhez fzze a következ lovak neveit:
+i. Csikasz
+ii. Pimasz
+iii. Lomha
+b. A használt parancsot fzze a valasz008.txt fájl végéhez.
+
+Feladat 009
+1. Jelenítse meg milyen felhasználók vannak belépve a rendszerbe.
+a. Csak a felhasználóneveket irányítsa egy valasz009.txt állományba
+b. A valasz009.txt állomány a saját könyvtárába legyen.
+2. Írja egy valasz009.txt nev állomány végére, hogyan nevezzük át az alma.txt állományt szilva.txt állománnyá.
+
+Feladat 010
+1. Hozza létre az Orszag nev könyvtárat a saját könyvtárában.
+a. Ügyeljen a a kisbet-nagybet különbségekre és az ékezet nélküliségre
+b. A használt parancsot fzze a valasz010.txt fájl végéhez.
+2. Lépjen be a Orszag nev könyvtárba
+a. A használt parancsot fzze a valasz010.txt fájl végéhez.
+3. Hozza létre a következ öt könyvtárakat
+a. A létrehozandó könyvtárak:
+Ukrajna
+Lengyelorszag
+Franciaorszag
+Spanyolorszag
+Portugalia
+b. A használt parancsokat fzze a valasz010.txt fájlhoz.
+4. A Spanyolorszag nev könyvtárban hozza létre a Madrid nev állományt
+a. A használt parancsot fzze a par.txt fájlhoz
+5. Listázza, milyen felhasználók vannak bejelentkezve a rendszerbe.
+a. Csak a felhasználónevek szükségesek
+b. A használt parancsot fzze a valasz010.txt fájlhoz.
+Beadandó fájlok:
+valasz010.txt
+
+Feladata 011
+1. Hozza létre saját könyvtárában a Parok nev könyvtárat.
+a. A használt parancsot fzze a valasz011.txt állomány végére.
+2. Fájlok a Parok könyvtárban:
+a. A Parok nev könyvtárban a következ fájlokat hozza létre.
+i. JaniKati.txt
+ii. AgiLali.txt
+iii. RoliMari.txt
+iv. GabiGabi.txt
+b. A használt parancsot fzze a valasz011.txt állomány végére.
+3. Listázza a ~/Parok könyvtár tartalmát
+a. Az eredményt irányítsa a valasz011.txt fájl végére.
+b. A használt parancsot is fzze a valasz011.txt végére
+
+Feladat 201
+Készítse el a következ állományt, amely dolgozók adatait tartalmazza:
+Nagy József Szolnok 800000
+Kis Lajos Miskolc 370000
+Gép Ferenc Szolnok 572000
+Pék István Szeged 328000
+Per Géza Szolnok 492000
+Az egyes oszlopok a nevüket települést (lakhely) és a fizetésüket tartalmazza.
+Listázza azokat a sorokat, amelyekben a dolgozók nem Szolnokon laknak.
+
+Feladat 202
+Készítse el a következ állományt, amely dolgozók adatait tartalmazza
+Fészek Róbert Miskolc 878000
+Piros Zoltán Miskolc 370000
+Gép Ilona Szolnok 523400
+Réti Gábor Szeged 328000
+Per Lajos Szolnok 495000
+Örök Béla Miskolc 715000
+Rabló János Szeged 241000
+Ers István Szolnok 379000
+Eszke Ferenc Miskolc 412000
+Merít Béla Miskolc 460000
+Az egyes oszlopok a nevüket, települést (lakhely) és a fizetésüket tartalmazza.
+Listázza azokat a sorokat, amelyekben a dolgozók nem Miskolc laknak, majd rendezze nevek szerint ábécé sorrendbe.
+
+Feladat 203
+Készítse el a következ állományt, amely dolgozók adatait tartalmazza:
+Peter István Miskolc 27 878000
+Beke Péter Szolnok 25 273500
+Bor Géza Szeged 28 127548
+Nagy Ferdinánd Szolnok 25 243500
+Bíró Ágota Miskolc 26 530000
+Page 4FlowAcademy
+Ers István Miskolc 30 422000
+Gyenge Lajos Szolnok 50 612000
+Hímes Emese Szeged 32 189500
+Az egyes oszlopok a nevüket, települést (lakhely), életkorukat és a fizetésüket tartalmazza.
+Listázza azokat a sorokat, amelyekben a dolgozók Szolnokon laknak, majd rendezze nevek szerint ábécé sorrendbe.

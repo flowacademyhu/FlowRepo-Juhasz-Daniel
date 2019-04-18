@@ -1,0 +1,10 @@
+1.Készíts egy komponenst laptops néven
+    2.Készítsd el az alábbi gyártók komponenseit is (Acer (Tajvan), Toshiba(Japán), HP(USA))
+    3. Mindhárom gyártóhoz add meg a nationality változót, ahova megadod az adott gyártó nemzetiségét.
+    4.A laptops komponensbe hozz létre 3 tömböt, az alábbi elemekkel.
+Acer: swift-7, spin-3, aspire-5; 
+Toshiba: Portege-Z30, Satellite Pro; 
+HP: Probook, Elitebook, G1, Pavilion
+5. A laptops komponensbe hívd meg mind a 3 komponenst a ngForba ágyazva
+    6. A meghíváskor passzold át a típusokat és a gyártó nevét, amit ki is íratsz. Passzolj át egy boolean változót is, amivel megadhatod, hogy kedveled-e az adott gyártót. Ha kedveled legyen zölddel kiírva a gyártó neve, ha nem akkor pirossal.
+    7. Tooltippel jelenítsd meg a gyártó nemzetiségét, ha neve fölé visszük az egeret.

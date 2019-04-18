@@ -1,0 +1,23 @@
+Ez egy sor
+Ez meg egy sor
+Harmadik sor
+negyedik sor
+Dátumok:
+1992.12.12
+2002.05.15
+2007.10.01
+Bank:
+11773991-01245697-00000000
+21452353-12133244-00000000
+12141241-12134214-12102100
+alma
+béla
+cica
+demo
+echo
+feri
+golf
+asddd@cicamail.com
+kiss.feri@nagy.cica.com
+dddaa@gmail.com
+geza@freemail.hu

@@ -1,0 +1,2 @@
+https://www.postgresql.org/docs/9.5/functions-aggregate.html
+http://java.progtanulo.hu/

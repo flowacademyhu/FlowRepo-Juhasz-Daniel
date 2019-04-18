@@ -1,0 +1,79 @@
+#firstpic,
+#secondpic {
+  width: ;
+  height: ;
+  padding: 10px;
+  border: solid 2px hotpink;
+  margin: 10px;
+}
+
+th {
+  background-color: rgb(184, 214, 50);
+}
+
+#cellTwo {
+  background-color: green;
+}
+
+.center {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+#picture1 {
+  float: left;
+}
+
+#cellThree {
+  background-color: red;
+}
+
+#tableOne {
+  border: dotted 20px black;
+  margin: auto;
+}
+
+#tableTwo {
+  border-collapse: collapse solid black;
+  border: 2px solid rgb(3, 1, 2);
+  margin: auto;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(117, 144, 233);
+}
+
+#thirdpic {
+  width: ;
+  height: ;
+  padding: ;
+  border: dotted black;
+  margin: 10px;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+}
+
+#hello {
+  text-align: right;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: rgb(33, 190, 218);
+}
+
+a:active {
+  color: rgb(37, 175, 13);
+}

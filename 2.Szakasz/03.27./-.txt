@@ -1,0 +1,22 @@
+Service feladat:
+1.Hozz létre egy service komponenst, userService néven
+2.Legyen egy metódusa a servicenek, getUser néven
+3.Ez adja vissza az alábbi adatokat. (DTO)
+user = [{
+   id: 1,
+   name: 'Máté',
+   gender: 'male'
+ }, {
+   id: 2,
+   name: 'Feri',
+   gender: 'female'
+ }, {
+   id: 3,
+   name: 'Robi',
+   gender: 'male'
+ }];
+
+4. Készíts egy user komponenst, amibe injektálod a userService-t
+5. Készíts a DTO alapján egy IUserInterface-t
+6. A user komponensbe, hívd meg a userService getUser metódusát, aminek a visszaadott értékét mentsd el a user nevű változóba, aminek IUserInterface a típusa.
+7. Html oldalon Írasd ki a 3 user minden értékét.

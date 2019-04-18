@@ -1,0 +1,5 @@
+https://www.lifewire.com/create-users-useradd-command-3572157
+
+https://linuxconfig.org/enable-ssh-on-ubuntu-18-04-bionic-beaver-linux
+
+https://www.ssh.com/ssh/command/

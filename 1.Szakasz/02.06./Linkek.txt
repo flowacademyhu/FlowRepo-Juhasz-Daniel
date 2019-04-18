@@ -1,0 +1,3 @@
+https://www.shellscript.sh/index.html
+
+https://www.tldp.org/LDP/abs/html/comparison-ops.html

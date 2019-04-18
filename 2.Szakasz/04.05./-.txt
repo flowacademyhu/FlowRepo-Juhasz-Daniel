@@ -1,0 +1,10 @@
+Készíts 4 komponenst: Fruits, Apple, Pear, Peach
+A Fruits komponensben jelenjen meg a 3 másik komponens neve linkként, valamint mind a 3 mellett egy gomb, ‘Show pieces’ felirattal
+Ha rányomunk az egyik linkre ugorjunk át az adott gyümölcs komponensére
+Ha megnyitjuk az egyik gyümölcs komponenst, jelenjen meg a komponens neve az oldalon, a másik két komponens neve linkként, valamint egy back gomb
+A back gomb kódból navigáljon vissza a Fruits komponensbe
+A másik két link pedig nyissa meg a nevét takaró komponenst
+A fruits komponensbe legyen megadva 3 number típusú változó tetszőleges értékkel: applePieces, pearPieces, peachPieces.
+A ‘Show pieces’ gomb megnyomására kódból navigáljunk át a gyümölcs komponensére, úgy hogy paraméterekkel átpasszoljuk az adott gyümölcs darabszámát (applePieces, pearPieces, peachPieces).
+Ha így navigálunk át, jelenjen meg a gyümölcs odalán a darabszám is a neve alatt
+

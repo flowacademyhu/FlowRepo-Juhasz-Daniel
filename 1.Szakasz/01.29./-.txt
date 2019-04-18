@@ -1,0 +1,131 @@
+Feladatok
+
+    Milyen könyvtárkezelő parancsok vannak?
+
+
+
+    Hozzon létre egy „tudas” nevű könyvtárat saját könyvtárában.
+
+mkdir tudas
+
+    Hozzon létre egy „jarmu” nevű könyvtárat saját könyvtárban.
+
+mkdir jarmu
+
+    Milyen paranccsal nézzük meg, melyik könyvtárban vagyunk éppen?
+
+pwd
+
+    Milyen paranccsal léphetünk a gyökérkönyvtárba (egy parancs)?
+
+cd /
+
+        A „jarmu” nevű könyvtárban a következő alkönyvtárakat hozza létere:
+
+            Citroen
+
+            Daewoo
+
+            Fiat
+
+            Ford
+
+            Lada
+
+            Mercedes
+
+            Nissan
+
+            Opel
+
+            Peugeot
+    Melyik az aktuális könyvtár? 
+    Lépjen a gyökérkönyvtárba! 
+    Lépjen a saját home könyvtárába! 
+    Lépjen a rendszergazda home könyvtárába (a jogosultsági rendszer valószínűleg megakadályozza majd)!
+
+~root
+ 
+    Lépjen a gyökérkönyvtárból nyíló etc könyvtárba! 
+    Lépjen vissza egy szinttel feljebb! 
+    Jelenítse meg az aktuális könyvtár tartalomjegyzékét! 
+    Jelenítse meg a /etc, majd a /var/log könyvtár tartalomjegyzékét is (részletes adatokkal)! 
+    Lépjen a saját home könyvtárába! Hozzon létre egy új alkönyvtárat, a neve legyen Teszt! 
+    Egyetlen paranccsal hozzon létre ebben két újabb könyvtárat, T1-et és T2-t! 
+    Rajzoltassa ki a könyvtárstruktúrát a tree paranccsal! A további feladatok megoldása során használja ezt a megoldások helyességének ellenőrzésére! 
+    Egyetlen paranccsal hozzon létre a Teszt könyvtárból nyíló három, egymásból nyíló könyvtárat: Unix/Linux/Debian néven! 
+    Nevezze át a Debian könyvtárat Deb-re! 
+    Helyezze át a Deb könyvtárat a T1-be!
+
+tesztbe vissza mv Unix/Linux/Deb T1
+
+    Törölje a T1 könyvtárat!
+
+rm -R T1
+
+    Egyetlen paranccsal törölje a Teszt könyvtárat! 
+    Jelenítse meg az aktuális könyvtár tartalmát! 
+    Jelenítse meg a /etc könyvtár tartalmát részletesen! 
+    Jelenítse meg a /etc könyvtár conf kiterjesztésű fájljait! 
+    Jelenítse meg a /etc könyvtár azon fájljait, melyek p-vel kezdődnek! 
+
+ls p*
+
+    Jelenítse meg a /etc könyvtár azon fájljait, melyek f-re végződnek!
+
+ls *f
+
+    Jelenítse meg a /etc könyvtár azon fájljait, melyek első karaktere p, a harmadik s és d-re végződnek! 
+
+ls p*s*d
+
+    Jelenítse meg a home könyvtárának tartalmát a benne levő rejtett fájlokkal együtt! 
+
+ls -a 
+
+    Jelenítse meg a /etc könyvtár azon fájljait, melyek második karaktere a vagy n! 
+    Jelenítse meg a /etc könyvtár azon fájljait, melyek második karaktere nem a és nem n! 
+    Jelenítse meg a rendszer összes fájlját és könyvtárát (hosszan fut)! 
+
+ls -R /
+
+    Indítsa el a Midnight Commanert! 
+    A fenti feladatokat végezze el a Midnight Commanderrel is!
+    Hozza létre a home könyvtárában az ábrán látható könyvtárakat! 
+
+    gyakorlat
+     |
+     |--Proba
+     |  |
+     |  |--test
+     |  |  |---unix
+     |  |
+     |  |--Linux
+     |
+     |--Check
+        |--Tmp
+
+    Lépjen a /etc könyvtárba! Jelenítse meg az innen nyíló könyvtárrendszert a tree paranccsal! Csak a könyvtárakat jelenítse meg, a fájlokat ne! 
+    Másolja a /etc könyvtár passwd fájlját a Proba könyvtárba! 
+    Másolja a /etc könyvtár shadow nevű fájlját a test könyvtárba! 
+    Másolja a /etc könyvtár összes conf kiterjesztésű fájlját a Linux könyvtárba! 
+    Másolja a /etc könyvtár azon fájljait, melynek második karaktere a, a negyedik s, és d-re végződnek, a Check könyvtárba! 
+    Helyezze át a Test könyvtár minden fájlját a Linux könyvtárba! 
+    Hozzon létre egy új fájlt a Check könyvtárban, melynek neve Adatok.txt! 
+
+touch Adatok.txt
+
+    Törölje a Linux könyvtár fájljait! 
+
+rm -R Proba/Linux/*
+
+    Törölje a Próba könyvtárat! 
+    Jelenítse meg a képernyőn a /etc/passwd fájl tartalmát! 
+
+cat /etc/passwd
+
+    Az előző feladatot végezze el a less paranccsal is! Értelmezze a fájl szerkezetét! * Lapozzon a szövegben, keresse meg a Bela nevű felhasználókat! Lépjen ki a less-ből! 
+
+less /etc/passwd kilépni q
+
+    Állapítsa meg a következő fájlok típusát: /bin/bash, /etc/passwd, /var/log/syslog! 

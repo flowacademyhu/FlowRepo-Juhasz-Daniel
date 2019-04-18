@@ -1,0 +1,7 @@
+function vs arrow function
+
+https://stackoverflow.com/questions/34361379/arrow-function-vs-function-declaration-expressions-are-they-equivalent-exch
+
+https://www.codewars.com/kata/56ccad525f907dc238000004
+
+https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable-in-jav
