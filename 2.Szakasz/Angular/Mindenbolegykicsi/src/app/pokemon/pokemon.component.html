@@ -1,0 +1,16 @@
+<div>
+  <button (click)="goBack()">Go Back</button>
+</div>
+<div>{{ pokemons.count }}</div>
+<div *ngFor="let i of pokemons.results; let index = index" >
+  <div *ngIf="index >= pokemons.results.length - 10">
+    <div appColor>
+    {{ i.name }} || {{ i.url }}
+  </div>
+  </div>
+</div>
+<form>
+  <input type="text" name="nameInput" [(ngModel)]="pokemonName">
+  <input type="text" name="urlInput" [(ngModel)]="url">
+  <button (click)="addNew()" [ngStyle]="{'color': 'blue', 'background-color': 'green'}">Add hozzá az új Pokemont!</button>
+</form>

@@ -1,0 +1,13 @@
+<div>
+  ---------------------<br>
+  <div *ngFor="let i of textArray; let last = last">
+    <div *ngIf="last">
+      Utolsó felvett érték:
+      {{ i }} <br>
+    ---------------------
+  </div>
+  </div><br>
+  Text:
+  <input type="text" [(ngModel)]="textsecond">
+  <button (click)="sendOutput()">Add this text to array (infinite)</button>
+</div>

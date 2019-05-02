@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afc907d9-4d9a-4837-9836-ee675bda0a99" name="Default Changelist" comment="" />
+    <list default="true" id="afc907d9-4d9a-4837-9836-ee675bda0a99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarcosokKlubja/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.22./Design" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.22./Design" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat2" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat3" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.27./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.27./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Szorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Szorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarcosokKlubja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HarcosokKlubja/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarcosokKlubja/src/harcosokMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/HarcosokKlubja/src/harcosokMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macskák/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Macskák/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macskák/Macska/src/Harc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Macskák/Macska/src/Harc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Cirmos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Cirmos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.03./SW" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.03./SW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.05./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.05./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./FormsGyak" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./FormsGyak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/Revision" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/AngularGyakFeladatok/-.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/FlowExamples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" beforeDir="false" afterPath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,32 +56,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Macska.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Sziami.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gyak/src/main.java">
+        <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/Harc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="133" selection-start-line="11" selection-start-column="133" selection-end-line="11" selection-end-column="133" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Muvelet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Kifejezesek.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -53,6 +86,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -61,21 +97,22 @@
         <option value="$PROJECT_DIR$/Gyak/src/Muvelet.java" />
         <option value="$PROJECT_DIR$/Gyak/src/kifejezesek/Muvelet.java" />
         <option value="$PROJECT_DIR$/Gyak/src/kifejezesek/Kifejezesek.java" />
+        <option value="$PROJECT_DIR$/Macskák/Macska/src/Harc.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="289" />
-    <option name="y" value="99" />
-    <option name="width" value="1205" />
-    <option name="height" value="789" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1215" />
+    <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,31 +123,56 @@
             <path>
               <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
               <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
-              <item name="Gyak" type="462c0819:PsiDirectoryNode" />
+              <item name="HarcosokKlubja" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
               <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
-              <item name="Gyak" type="462c0819:PsiDirectoryNode" />
+              <item name="Kifejezesek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
+              <item name="Macskák" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
+              <item name="Macskák" type="462c0819:PsiDirectoryNode" />
+              <item name="Macska" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
+              <item name="Macskák" type="462c0819:PsiDirectoryNode" />
+              <item name="Macska" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
               <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
-              <item name="Gyak" type="462c0819:PsiDirectoryNode" />
+              <item name="Macskák" type="462c0819:PsiDirectoryNode" />
+              <item name="Macska" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kifejezesek" type="462c0819:PsiDirectoryNode" />
+              <item name="haziallatok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDF (szorg. gyak.)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDF (szorg. gyak.)" type="462c0819:PsiDirectoryNode" />
+              <item name="Teendők" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$USER_HOME$/TesztPractice/Teszt1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Macskák" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -154,9 +216,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13558385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13890426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -186,24 +247,18 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek.java" />
-    <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Kifejezesek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Kifejezesek.java" />
+    <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Muvelet.java" />
+    <entry file="file://$PROJECT_DIR$/Gyak/src/main.java" />
+    <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Macska.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gyak/src/kifejezesek/Muvelet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/haziallatok/Sziami.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gyak/src/main.java">
+    <entry file="file://$PROJECT_DIR$/Macskák/Macska/src/Harc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="133" selection-start-line="11" selection-start-column="133" selection-end-line="11" selection-end-column="133" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

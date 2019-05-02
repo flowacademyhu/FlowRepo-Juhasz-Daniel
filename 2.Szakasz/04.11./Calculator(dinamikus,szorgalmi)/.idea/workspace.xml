@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4ee5a4-9827-4cd0-8f1b-6bce77d5021f" name="Default Changelist" comment="" />
+    <list default="true" id="8f4ee5a4-9827-4cd0-8f1b-6bce77d5021f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator/src/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SwingFeladat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.22./Design" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.22./Design" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat2" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat3" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.27./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.27./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Szorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Szorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/src/harcosokMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/src/harcosokMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/Harc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/Harc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/haziallatok/Cirmos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/haziallatok/Cirmos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.03./SW" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.03./SW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.05./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.05./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./FormsGyak" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./FormsGyak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/src/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SwingFeladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SwingFeladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/Revision" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/AngularGyakFeladatok/-.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC/JDBCAfternoonPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/FlowExamples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" beforeDir="false" afterPath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,25 +51,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="30">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator/src/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="8">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,11 +85,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Calculator/src/Window.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/GridLayout.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/Label.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/Card.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/Grid.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/Border.java" />
         <option value="$PROJECT_DIR$/Calculator/src/Main.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/List.java" />
+        <option value="$PROJECT_DIR$/Calculator/src/Window.java" />
       </list>
     </option>
   </component>
@@ -55,13 +108,16 @@
     <option name="width" value="1215" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,8 +143,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -104,6 +161,17 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -122,45 +190,72 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29662424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calculator/src/Window.java">
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Label.java" />
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Card.java" />
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Border.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="476">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/src/List.java" />
     <entry file="file://$PROJECT_DIR$/Calculator/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

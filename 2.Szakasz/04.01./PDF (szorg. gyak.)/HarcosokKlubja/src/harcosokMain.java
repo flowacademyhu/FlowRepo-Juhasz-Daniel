@@ -23,7 +23,7 @@ public class harcosokMain {
             }
         } */
 
-       Harcos feri = new Harcos(10, 2);
+       Harcos feri = new Harcos(10, 10);
        Nagydarab zoli = new Nagydarab(4, 10,0);
        harcosokklubjaharc harc = new harcosokklubjaharc();
 

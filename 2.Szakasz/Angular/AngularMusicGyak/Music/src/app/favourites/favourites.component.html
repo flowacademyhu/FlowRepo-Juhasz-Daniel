@@ -1,0 +1,12 @@
+<div class="card-header">
+  <div class="row">
+    <div class="col-sm-3" (click)="goAll()">All</div>
+    <div class="col-sm-3" (click)="goPop()">Pop</div>
+    <div class="col-sm-3" (click)="goRetro()">Retro</div>
+    <div class="col-sm-3" (click)="goFavourites()">Favourites</div>
+  </div>
+</div>
+<div class="card-header">Favourites</div>
+<div class="card-body">
+<div *ngFor="let i of favourites">{{ i.artist }} {{ i.title }} </div>
+</div>

@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c17f201e-ee21-4c8d-8c8e-8811c70ef233" name="Default Changelist" comment="" />
+    <list default="true" id="c17f201e-ee21-4c8d-8c8e-8811c70ef233" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.20./Gyak/TaskManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.22./Design" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.22./Design" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat2" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.25./Feladat3" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.25./Feladat3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.27./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.27./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.29./Szorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.29./Szorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/HarcosokOut/production/Gyak/harcosokMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/src/harcosokMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/HarcosokKlubja/src/harcosokMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/Harc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/Harc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/haziallatok/Cirmos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.01./PDF (szorg. gyak.)/Macskák/Macska/src/haziallatok/Cirmos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.03./SW" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.03./SW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.04./Feladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.05./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.05./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./FormsGyak" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./FormsGyak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.08./Mindenbolegykicsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./Calculator(dinamikus,szorgalmi)/Calculator/src/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../04.11./SwingFeladat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/CartSzorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/Angular/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/Angular/Revision" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/AngularGyakFeladatok/-.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Angular/angular-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Angular/angular-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/FlowExamples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" beforeDir="false" afterPath="$PROJECT_DIR$/../../Postgres/epsilon-pub-database" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +52,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="117" column="135" selection-start-line="117" selection-start-column="135" selection-end-line="117" selection-end-column="135" />
+            <state relative-caret-position="1515">
+              <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,6 +90,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,12 +107,12 @@
     <option name="width" value="1215" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,11 +124,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Letöltések/postgresql-42.2.5.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -127,8 +173,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -159,8 +206,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="117" column="135" selection-start-line="117" selection-start-column="135" selection-end-line="117" selection-end-column="135" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,38 @@
+<div>
+  <button (click)="hide()">Hide/Show</button>
+</div>
+<div *ngIf="hideit">
+  <div>
+    <input type="number" [(ngModel)]="num1" />
+    <input type="number" [(ngModel)]="num2" />
+    <button (click)="clickSum()">Sum</button>
+    <div [ngClass]="{ backred: numsum > 100, backgreen: 100 > numsum }">
+      {{ numsum }}
+    </div>
+  </div>
+  <div>
+    <input type="text" [disabled]="check" [(ngModel)]="text" />
+    <input type="checkbox" [(ngModel)]="check" />
+    <button (click)="add()" [disabled]="textArray.length >= 5">Add</button>
+    <div
+      *ngFor="let i of textArray; let odd = odd"
+      [ngClass]="{ purplecolor: odd }"
+    >
+      {{ i }}
+    </div>
+    <div *ngIf="textArray.length >= 5">Nem vehető fel több érték!</div>
+  </div>
+  <div>
+    <app-second
+      [textArray]="textArray"
+      (addTextArray)="addOutput($event)"
+    ></app-second>
+  </div>
+  <div>
+    <button (click)="goPokemon()">POKEMON</button>
+  </div>
+  <div>
+    <button (click)="showDog()">Show Dog</button>
+    <app-dogs *ngIf="hidedog"></app-dogs>
+  </div>
+</div>

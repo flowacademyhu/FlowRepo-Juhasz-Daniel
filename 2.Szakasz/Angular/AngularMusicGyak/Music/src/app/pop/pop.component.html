@@ -1,0 +1,19 @@
+<div class="card-header">
+  <div class="row">
+    <div class="col-sm-3" (click)="goAll()">All</div>
+    <div class="col-sm-3" (click)="goPop()">Pop</div>
+    <div class="col-sm-3" (click)="goRetro()">Retro</div>
+    <div class="col-sm-3" (click)="goFavourites()">Favourites</div>
+  </div>
+</div>
+<div class="card-header">Pop</div>
+<div class="card-body">
+<div *ngFor="let i of pop">
+  <div>{{ i.artist }} {{ i.title }}</div>
+  <div *ngIf="!clicked">
+  <i class="fas fa-plus" style="color: green" title="Add to favourites" (click)="clickOnIt()"></i>
+</div>
+<div *ngIf="clicked">
+    <i class="fas fa-times" style="color: red" title="Remove from favourites" (click)="clickOnIt()"></i>
+  </div>
+</div>

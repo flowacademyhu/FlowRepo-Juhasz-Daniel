@@ -5,6 +5,7 @@ public class Cirmos extends Macska {
     private int pofonErosseg = 3;
 
     public int getPofonErosseg() {
+
         return pofonErosseg;
     }
 
