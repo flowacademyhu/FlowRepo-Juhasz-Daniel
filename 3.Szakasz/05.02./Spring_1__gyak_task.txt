@@ -1,0 +1,48 @@
+1. Készítsük el egy bevásárlólistás alkalmazás backendjét.
+
+
+  a. Készítsünk egy java-s classt, amely a bevásárlólistánk elemeit fogja reprezentálni.
+
+    i. Szükség lesz a következő fieldekre, megfelelő típusokkal (ez már remlélhetőleg menni fog): egyedi azonosító (az egyszerűség kedvéért legyen szöveges típusú), termék megnevezés, termék kategória, termék mennyiség, termék mennyiségi egység, termék ár, termékhez fűzhető komment.
+
+
+
+  b. Az alkalmazásunknak tudnia kell a következő funkcionalitásokat:
+
+    i. Tudjunk felvenni egy terméket a bevásárlólistára!
+
+    ii. Tudjunk kettő vagy több terméket felvenni a bevásárlólistára! (++)
+
+    iii. Tudjunk egy-egy meglévő termék valamennyi perferenciáját módosítani a bevásárlólistán! 
+
+    iv. Legyünk képesek törölni egy-egy terméket a bevásárlólistánkról!
+
+    v. Tudjuk megjeleníteni (azaz listázni) a bevásárlólistánk teljes tartalmát!
+
+    vi. Tudjunk egy-egy konkrét terméket megjeleníteni a listáról, amit az azonosítója alapján kérünk le! (++)
+
+    
+
+  c. Készítsünk RestController classt, azon belül REST endpointokat, amelyeken keresztül tudunk majd kommunikálni az alkalmazással! Az üzleti logikát most a Controller réteg fogja végezni, így hozzunk itt létre egy lista adatszerkezetet, ami a bevásárlólistánk tartalmát fogja reprezentálni. A lista generikusa az a class legyen, amit az imént a termékek reprezentálására hoztunk létre. Ezután, implementáljuk a funkcionalitásokat, amelyek követelményei a következők:
+    
+    i. Egy termék felvetele esetén: POST metódussal fogadjon az endpoint egy teljes termék JSON-t. Mentse el a listába a terméket, majd térjen vissza a mentett termék JSON-jával.
+
+    ii. Kettő vagy több termék felvételekor: POST metódussal fogadjon az endpoint egy teljes termék lista JSON-t. Mentse el a kapott lista tartalmát a bevásárlólistába, majd térjen vissza a mentett terméklista JSON-jával. (++)
+
+    iii. Egy-egy termék módosítása: PUT metódussal fogadjon az endpoint egy JSON-t, ami a módosítandó terméket reprezentálja, a módosított értékekkel. A metódus végezze el az update-et, majd térjen vissza a módosított termék JSON-jával.
+
+    iv. Termék törlése a listáról: DELETE metódussal fogadjon az endpoint mindösszesen egy ID-t (azonosítót), amely alapján a metódus törli a megadott azonosítójú terméket a listából, és sikeres törlés esetén visszatér a törölt termék id-jával, egyébként pedig egy Stringgel, hogy: "A törlés nem sikerült"
+
+    v. Termékek listázása: GET metódussal implementáljuk a függvényt, adat átadására most nem lesz szükségünk. A függvényünk térjen vissza egy listával (JSON), ami a jelenleg a bevásárlólistán tárolt termékek adatait tartalmazza.
+
+    vi. Egy termék lekérdezése: GET metódussal fogadjon az endpoint egy ID-t (azonosítót), és térjen vissza azzal a termék JSON-nal, amleyet le akartunk kérdezni (kvázi amelynek az ID-ját átadtuk). (++)
+
+
+
+  d. Ha kész vagyunk a RestController réteg létrehozásával, Postman-ből teszteljük ki a munkánkat! Térjünk ki alaposan mindegyik funkcionalitásra!
+
+
+
+2. Plusz feladat annak, aki végzett a fentiekkel:
+
+  a. Implementáljunk olyan endpointot, ami arról ad vissza statisztikát, hogy mennyi a bevásárlólistára felvett termékek összértéke. Adat felküldésére most nem lesz szükség, GET metódussal implementáljuk az endpointot. Egy számértékkel térjünk vissza, amely a listára felvett elemek összesített árát reprezentálja.
