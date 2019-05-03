@@ -1,71 +1,48 @@
 package hu.flowacademy.shoppinglist.controller;
 
+import hu.flowacademy.shoppinglist.Service.ShoppingListService;
 import hu.flowacademy.shoppinglist.domain.ShoppingListItem;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/shoppinglist")
 public class ShoppingListController {
 
-    private Map<String, ShoppingListItem> list = new HashMap<>();
-
-    //@PostMapping("/add")
-    //public ResponseEntity<ShoppingListItem> addToList(@RequestBody ShoppingListItem shoppingListItem){
-      //  list.put(shoppingListItem.getId(), shoppingListItem);
-       // return ResponseEntity.ok(shoppingListItem);
-    //}
+    @Autowired
+    public ShoppingListService service;
 
     @PostMapping("/add")
-    public ResponseEntity<List<ShoppingListItem>> addToList(@RequestBody List<ShoppingListItem> shoppingList){
-        for(ShoppingListItem item : shoppingList){
-            list.put(item.getId(), item);
-        }
-        return ResponseEntity.ok(shoppingList);
+    public ResponseEntity<List<ShoppingListItem>> addToList(@RequestBody List<ShoppingListItem> shoppingList) {
+        return ResponseEntity.ok(service.save(shoppingList));
     }
 
     @PutMapping("/update")
-    public ResponseEntity<ShoppingListItem> updateList(@RequestBody ShoppingListItem shoppingListItem){
-        ShoppingListItem foundedItem = list.get(shoppingListItem.getId());
-        if ( foundedItem != null) {
-            list.remove(shoppingListItem.getId());
-            list.put(shoppingListItem.getId(), shoppingListItem);
-            return ResponseEntity.ok(shoppingListItem);
-        }
-        return ResponseEntity.ok(new ShoppingListItem());
+    public ResponseEntity<List<ShoppingListItem>> updateList(@RequestBody List<ShoppingListItem> shoppingList) {
+        return ResponseEntity.ok(service.save(shoppingList));
     }
 
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteFromList(@PathVariable String id) {
-        list.remove(id);
-        return ResponseEntity.ok(id);
+        return ResponseEntity.ok(service.delete(id));
     }
 
-    @GetMapping("/list-shoppinglist")
-    public ResponseEntity<List<ShoppingListItem>> listShoppingList() {
-        List<ShoppingListItem> shoppingList = new ArrayList<>(list.values());
-        return ResponseEntity.ok(shoppingList);
+    @GetMapping("/get")
+    public ResponseEntity<List<ShoppingListItem>> getList() {
+        return ResponseEntity.ok(service.get());
     }
 
-    @GetMapping("/list-shoppinglist/{id}")
-    public ResponseEntity<ShoppingListItem> listShoppingListByID(@PathVariable String id) {
-        ShoppingListItem item = list.get(id);
-        return ResponseEntity.ok(item);
+    @GetMapping("/get/{id}")
+    public ResponseEntity<ShoppingListItem> getById (@PathVariable String id) {
+        return ResponseEntity.ok(service.getById(id));
     }
 
     @GetMapping("/sumprice")
-    public ResponseEntity<Integer> sumAllItemsPrice() {
-        List<ShoppingListItem> listForPrices = new ArrayList<>(list.values());
-        int sum = 0;
-        for (ShoppingListItem item: listForPrices) {
-            sum += item.getPrice();
-        }
-        return ResponseEntity.ok(sum);
+    public ResponseEntity<Integer> sumPrice () {
+        return ResponseEntity.ok(service.sum());
     }
 
 }
