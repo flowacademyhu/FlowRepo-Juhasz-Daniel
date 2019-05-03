@@ -46,11 +46,26 @@ public class ShoppingListController {
         return ResponseEntity.ok(id);
     }
 
-    @GetMapping("list-shoppinglist")
+    @GetMapping("/list-shoppinglist")
     public ResponseEntity<List<ShoppingListItem>> listShoppingList() {
         List<ShoppingListItem> shoppingList = new ArrayList<>(list.values());
         return ResponseEntity.ok(shoppingList);
     }
 
+    @GetMapping("/list-shoppinglist/{id}")
+    public ResponseEntity<ShoppingListItem> listShoppingListByID(@PathVariable String id) {
+        ShoppingListItem item = list.get(id);
+        return ResponseEntity.ok(item);
+    }
+
+    @GetMapping("/sumprice")
+    public ResponseEntity<Integer> sumAllItemsPrice() {
+        List<ShoppingListItem> listForPrices = new ArrayList<>(list.values());
+        int sum = 0;
+        for (ShoppingListItem item: listForPrices) {
+            sum += item.getPrice();
+        }
+        return ResponseEntity.ok(sum);
+    }
 
 }

@@ -7,7 +7,7 @@ public class ShoppingListItem {
     private String category;
     private String quantity;
     private String quantityunit;
-    private String price;
+    private int price;
     private String comment;
 
     public String getId() {
@@ -50,11 +50,11 @@ public class ShoppingListItem {
         this.quantityunit = quantityunit;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
