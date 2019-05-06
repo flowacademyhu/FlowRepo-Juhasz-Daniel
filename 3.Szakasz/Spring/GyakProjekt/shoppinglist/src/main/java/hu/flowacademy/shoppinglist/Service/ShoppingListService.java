@@ -1,8 +1,10 @@
 package hu.flowacademy.shoppinglist.Service;
 
+import hu.flowacademy.shoppinglist.Exceptions.ShoppingListItemNotFoundException;
 import hu.flowacademy.shoppinglist.domain.ShoppingListItem;
-import hu.flowacademy.shoppinglist.repository.ShoppingListRepository;
+import hu.flowacademy.shoppinglist.repository.ShoppingListRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,26 +13,34 @@ import java.util.List;
 public class ShoppingListService {
 
     @Autowired
-    public ShoppingListRepository repository;
+    public ShoppingListRepo repository;
 
-    public List<ShoppingListItem> save(List<ShoppingListItem> savelist) {
-        return repository.save(savelist);
+    public ShoppingListItem save(ShoppingListItem item) {
+            return repository.save(item);
     };
 
-    public String delete(String id) {
-        return repository.delete(id);
+    public void delete(String id) {
+        try {
+            repository.deleteById(id);
+        } catch (EmptyResultDataAccessException e) {
+            throw new ShoppingListItemNotFoundException(id);
+        }
     }
 
     public List<ShoppingListItem> get() {
-        return repository.get();
+        return repository.findAll();
     }
 
     public ShoppingListItem getById(String id) {
-        return repository.getById(id);
+        if (repository.findById(id).isPresent()) {
+            return repository.findById(id).get();
+        }
+        throw new ShoppingListItemNotFoundException(id);
     }
 
-    public Integer sum() {
+
+   /* public Integer sum() {
         return repository.sum();
-    }
+    }*/
 
 }

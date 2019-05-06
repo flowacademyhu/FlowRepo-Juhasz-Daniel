@@ -15,34 +15,40 @@ public class ShoppingListController {
     @Autowired
     public ShoppingListService service;
 
+    //kész
     @PostMapping("/add")
-    public ResponseEntity<List<ShoppingListItem>> addToList(@RequestBody List<ShoppingListItem> shoppingList) {
+    public ResponseEntity<ShoppingListItem> addToList(@RequestBody ShoppingListItem shoppingList) {
         return ResponseEntity.ok(service.save(shoppingList));
     }
 
+    //kész
     @PutMapping("/update")
-    public ResponseEntity<List<ShoppingListItem>> updateList(@RequestBody List<ShoppingListItem> shoppingList) {
+    public ResponseEntity<ShoppingListItem> updateList(@RequestBody ShoppingListItem shoppingList) {
         return ResponseEntity.ok(service.save(shoppingList));
     }
 
+    //kész
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> deleteFromList(@PathVariable String id) {
-        return ResponseEntity.ok(service.delete(id));
+    public ResponseEntity<Void> deleteFromList(@PathVariable String id) {
+        service.delete(id);
+        return ResponseEntity.noContent().build();
     }
 
+    //kész
     @GetMapping("/get")
     public ResponseEntity<List<ShoppingListItem>> getList() {
         return ResponseEntity.ok(service.get());
     }
 
+    //kész
     @GetMapping("/get/{id}")
     public ResponseEntity<ShoppingListItem> getById (@PathVariable String id) {
         return ResponseEntity.ok(service.getById(id));
     }
 
-    @GetMapping("/sumprice")
+    /*@GetMapping("/sumprice")
     public ResponseEntity<Integer> sumPrice () {
         return ResponseEntity.ok(service.sum());
-    }
+    }*/
 
 }
