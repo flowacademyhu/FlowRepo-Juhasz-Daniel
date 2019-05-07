@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc6e3131-1989-4f45-923f-a4773e33c28e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Git/gitGyakorlo/FCB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/JavaScript/jsGyakorlo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.Szakasz/Traffic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.20./Gyak/TaskManager" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.20./Gyak/TaskManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.22./Design" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.22./Design" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.25./Feladat3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.27./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.27./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.29./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.29./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/03.29./Szorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/03.29./Szorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/04.03./SW" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/04.03./SW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/04.05./Feladat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/04.05./Feladat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/04.08./FormsGyak" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/04.08./FormsGyak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/04.08./Mindenbolegykicsi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/04.08./Mindenbolegykicsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/Angular/Angular/CartSzorgalmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/Angular/Angular/CartSzorgalmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/Angular/Angular/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/Angular/Angular/Revision" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/Angular/angular-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/Angular/angular-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/Java/Tesztelés" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/Java/Tesztelés" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.Szakasz/Postgres/epsilon-pub-database" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Szakasz/Postgres/epsilon-pub-database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/Exceptions/ShoppingListItemNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/Exceptions/ShoppingListItemNotFoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/Exceptions/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/Exceptions/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/GyakProjekt/shoppinglist/src/main/java/hu/flowacademy/shoppinglist/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/spring_gyak" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/spring_gyak" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lecture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Student.java" />
+        <option value="$PROJECT_DIR$/src/Lecture.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1215" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SerializeGyak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SerializeGyak" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SerializeGyak" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc6e3131-1989-4f45-923f-a4773e33c28e" name="Default Changelist" comment="" />
+      <created>1557228891044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557228891044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lecture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

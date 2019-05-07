@@ -15,4 +15,11 @@ public class ShoppingListItemNotFoundAdvice {
     public String itenmNotFoundHandler(ShoppingListItemNotFoundException e) {
         return e.getMessage();
     }
+
+    @ResponseBody
+    @ExceptionHandler(UserNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public String userNotFoundHandler(UserNotFoundException e) {
+        return e.getMessage();
+    }
 }

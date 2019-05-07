@@ -16,18 +16,18 @@ public class UserController {
     private UserService service;
 
     @PostMapping("/add")
-    public ResponseEntity<User> addToList(@RequestBody User shoppingList) {
-        return ResponseEntity.ok(service.save(shoppingList));
+    public ResponseEntity<User> addToList(@RequestBody User user) {
+        return ResponseEntity.ok(service.save(user));
     }
 
     @PutMapping("/update")
-    public ResponseEntity<User> updateList(@RequestBody User shoppingList) {
-        return ResponseEntity.ok(service.save(shoppingList));
+    public ResponseEntity<User> updateList(@RequestBody User user) {
+        return ResponseEntity.ok(service.save(user));
     }
 
     @DeleteMapping("/delete/{username}")
-    public ResponseEntity<Void> deleteFromList(@PathVariable String id) {
-        service.delete(id);
+    public ResponseEntity<Void> deleteFromList(@PathVariable String username) {
+        service.delete(username);
         return ResponseEntity.noContent().build();
     }
 
@@ -37,8 +37,8 @@ public class UserController {
     }
 
     @GetMapping("/get/{username}")
-    public ResponseEntity<User> getById (@PathVariable String id) {
-        return ResponseEntity.ok(service.getById(id));
+    public ResponseEntity<User> getById (@PathVariable String username) {
+        return ResponseEntity.ok(service.getById(username));
     }
 
 
