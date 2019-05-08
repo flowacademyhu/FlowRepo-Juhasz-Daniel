@@ -10,6 +10,15 @@ import javax.persistence.Table;
 @Table(name = "users")
 public class User {
 
+    public User(String username, String password, String fullName) {
+        this.username = username;
+        this.password = password;
+        this.fullName = fullName;
+    }
+
+    public User() {
+    }
+
     @Id
     @Column(name = "username")
     private String username;

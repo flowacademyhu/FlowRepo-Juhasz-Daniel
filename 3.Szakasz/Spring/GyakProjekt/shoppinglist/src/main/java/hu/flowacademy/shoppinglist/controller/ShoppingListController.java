@@ -2,6 +2,7 @@ package hu.flowacademy.shoppinglist.controller;
 
 import hu.flowacademy.shoppinglist.Service.ShoppingListService;
 import hu.flowacademy.shoppinglist.domain.ShoppingListItem;
+import hu.flowacademy.shoppinglist.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -45,6 +46,18 @@ public class ShoppingListController {
     public ResponseEntity<ShoppingListItem> getById (@PathVariable String id) {
         return ResponseEntity.ok(service.getById(id));
     }
+
+    @GetMapping("/list-per-user/{username}")
+    public ResponseEntity<Long> getSumListPerUser(@PathVariable String username ) {
+        return ResponseEntity.ok(service.sumListPerUser(username));
+    }
+
+    @GetMapping("/list-of-user/{username}")
+    public ResponseEntity<List<ShoppingListItem>> getShoppingListItems(@PathVariable String username) {
+        return ResponseEntity.ok(service.getItems(username));
+    }
+
+
 
     /*@GetMapping("/sumprice")
     public ResponseEntity<Integer> sumPrice () {

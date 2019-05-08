@@ -2,6 +2,7 @@ package hu.flowacademy.shoppinglist.Service;
 
 import hu.flowacademy.shoppinglist.Exceptions.ShoppingListItemNotFoundException;
 import hu.flowacademy.shoppinglist.domain.ShoppingListItem;
+import hu.flowacademy.shoppinglist.domain.User;
 import hu.flowacademy.shoppinglist.repository.ShoppingListRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -37,6 +38,16 @@ public class ShoppingListService {
         }
         throw new ShoppingListItemNotFoundException(id);
     }
+
+    public Long sumListPerUser(String username) {
+        return repository.sumListPerUser(username);
+    }
+
+    public List<ShoppingListItem> getItems(String username) {
+        return repository.findByUser_UsernameStartingWith(username);
+    }
+
+
 
 
    /* public Integer sum() {
