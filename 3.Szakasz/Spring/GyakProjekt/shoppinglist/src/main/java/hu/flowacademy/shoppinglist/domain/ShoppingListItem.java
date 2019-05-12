@@ -2,6 +2,7 @@ package hu.flowacademy.shoppinglist.domain;
 
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "shopping_list_item")
@@ -16,6 +17,17 @@ public class ShoppingListItem {
         this.price = price;
         this.comment = comment;
         this.user = user;
+    }
+
+    public ShoppingListItem(String id, String name, String category, String quantity, String quantityunit, int price, String comment, Boolean done) {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.quantity = quantity;
+        this.quantityunit = quantityunit;
+        this.price = price;
+        this.comment = comment;
+        this.done = done;
     }
 
     public ShoppingListItem() {
@@ -46,6 +58,28 @@ public class ShoppingListItem {
     @OneToOne
     @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "fk_shoppinglistitem_userid"))
     private User user;
+
+    @Column
+    private Boolean done;
+
+    @OneToMany(mappedBy = "shoppingListItem")
+    private List<Variant> variants;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Boolean getDone() {
+        return done;
+    }
+
+    public void setDone(Boolean done) {
+        this.done = done;
+    }
 
     public String getId() {
         return id;

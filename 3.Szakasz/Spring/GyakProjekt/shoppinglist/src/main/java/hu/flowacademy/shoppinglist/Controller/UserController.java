@@ -1,4 +1,4 @@
-package hu.flowacademy.shoppinglist.controller;
+package hu.flowacademy.shoppinglist.Controller;
 
 import hu.flowacademy.shoppinglist.Service.UserService;
 import hu.flowacademy.shoppinglist.domain.User;
