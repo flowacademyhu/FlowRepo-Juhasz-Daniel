@@ -12,6 +12,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Optional;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
@@ -34,16 +36,16 @@ public class ShoppingListServiceTest {
 
     @Before
     public void setup() {
-        ShoppingListItem shoppingListItemShouldBeFound = new ShoppingListItem("12", "asd", "dsa", "333", "error", 100, "wrong", false);
-        Mockito.when(repository.findByUser_UsernameStartingWith(shoppingListItemShouldBeFound.getName())).thenReturn(shoppingListItemShouldBeFound);
+        Optional<ShoppingListItem> shoppingListItemShouldBeFound = new ShoppingListItem("12", "asd", "dsa", "333", "error", 100, "wrong", false);
+        Mockito.when(repository.findById(shoppingListItemShouldBeFound.getId())).thenReturn()
     }
 
     @Test
     public void whenValidDescription_thenTodoItemShouldBeFound() {
-        String description = "TestTodoItem";
-        TodoItem found = todolistService.getItemByDescription(description);
-        assertThat(found.getDescription())
-                .isEqualTo(description);
+        String name = "asdasfasf";
+        ShoppingListItem found = service.get(description);
+        assertThat(found.getName())
+                .isEqualTo(name);
     }
 
 

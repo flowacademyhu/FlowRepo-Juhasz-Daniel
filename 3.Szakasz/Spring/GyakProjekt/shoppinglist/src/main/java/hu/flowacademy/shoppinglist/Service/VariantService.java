@@ -19,17 +19,20 @@ public class VariantService {
     @Autowired
     private VariantRepo variantRepoRepo;
 
+    @Autowired
+    private ShoppingListRepo shoppingListRepo;
+
     public List<Variant> getById(long id){
         return variantRepoRepo.findByShoppingListItem_Id(id);
     }
 
-   /* public Variant save(Variant variant){
-        Optional<ShoppingListItem> shoppingListItem = ShoppingListRepo.findById(variant.getShoppingListItemId());
+   public Variant save(Variant variant){
+        Optional<ShoppingListItem> shoppingListItem = shoppingListRepo.findById(variant.getShoppingListItemId());
         if(shoppingListItem.isPresent()) {
             variant.setShoppingListItem((shoppingListItem.get()));
             return variantRepoRepo.save(variant);
         }
         throw new ShoppingListItemNotFoundException(variant.getShoppingListItemId());
-    }*/
+    }
 
 }

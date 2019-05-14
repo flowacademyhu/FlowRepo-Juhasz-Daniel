@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-public class CarNotFoundAdvice {
+public class DriverNotFoundAdvice {
 
     @ResponseBody
-    @ExceptionHandler(CarNotFoundException.class)
+    @ExceptionHandler(DriverNotFoundExpection.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public String carNotFoundHandler(CarNotFoundException e) {
+    public String driverNotFoundHandler(DriverNotFoundExpection e) {
         return e.getMessage();
     }
 
