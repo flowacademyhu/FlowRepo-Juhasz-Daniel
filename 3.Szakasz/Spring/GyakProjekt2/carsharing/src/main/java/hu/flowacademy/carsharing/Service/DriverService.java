@@ -1,6 +1,7 @@
 package hu.flowacademy.carsharing.Service;
 
 import hu.flowacademy.carsharing.Domain.Driver;
+import hu.flowacademy.carsharing.Exception.CannotDeleteException;
 import hu.flowacademy.carsharing.Exception.DriverNotFoundExpection;
 import hu.flowacademy.carsharing.Repository.DriverRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,10 +27,14 @@ public class DriverService {
     }
 
     public void deleteDriver(String loginName) {
-        if(driverRepository.findById(loginName).isPresent()) {
-            driverRepository.deleteById(loginName);
-        } else {
-            throw new DriverNotFoundExpection(loginName);
+        try {
+            if(driverRepository.findById(loginName).isPresent()) {
+                driverRepository.deleteById(loginName);
+            } else {
+                throw new DriverNotFoundExpection(loginName);
+            }
+        } catch (Exception e) {
+            throw new CannotDeleteException(" driver can not be deleted ");
         }
     }
 

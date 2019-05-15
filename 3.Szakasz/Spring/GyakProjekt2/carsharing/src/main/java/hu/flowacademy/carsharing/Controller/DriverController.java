@@ -28,12 +28,12 @@ public class DriverController {
     }
 
     @PutMapping("/update")
-    public ResponseEntity<Driver> update(Driver driver) {
+    public ResponseEntity<Driver> update(@RequestBody Driver driver) {
         return ResponseEntity.ok(driverService.save(driver));
     }
 
     @PostMapping("/post")
-    public ResponseEntity<Driver> post(Driver driver) {
+    public ResponseEntity<Driver> post(@RequestBody Driver driver) {
         return ResponseEntity.ok(driverService.save(driver));
     }
 

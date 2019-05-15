@@ -16,4 +16,11 @@ public class CarNotFoundAdvice {
         return e.getMessage();
     }
 
+    @ResponseBody
+    @ExceptionHandler(CannotDeleteException.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    public String carDoesHaveReservation(CannotDeleteException e) {
+        return e.getMessage();
+    }
+
 }

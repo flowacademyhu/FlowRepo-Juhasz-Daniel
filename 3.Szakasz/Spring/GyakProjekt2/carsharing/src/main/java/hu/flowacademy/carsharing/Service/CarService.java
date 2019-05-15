@@ -1,8 +1,10 @@
 package hu.flowacademy.carsharing.Service;
 
 import hu.flowacademy.carsharing.Domain.Car;
+import hu.flowacademy.carsharing.Exception.CannotDeleteException;
 import hu.flowacademy.carsharing.Exception.CarNotFoundException;
 import hu.flowacademy.carsharing.Repository.CarRepository;
+import org.postgresql.util.PSQLException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,10 +28,14 @@ public class CarService {
     }
 
     public void deleteCar(String numberPlate) {
-        if (carRepository.findById(numberPlate).isPresent()){
-            carRepository.deleteById(numberPlate);
-        } else {
-            throw new CarNotFoundException(numberPlate);
+        try {
+            if (carRepository.findById(numberPlate).isPresent()){
+                carRepository.deleteById(numberPlate);
+            } else {
+                throw new CarNotFoundException(numberPlate);
+            }
+        }catch (Exception e){
+            throw new CannotDeleteException("car can not be deleted");
         }
     }
 

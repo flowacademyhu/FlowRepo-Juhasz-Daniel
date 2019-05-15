@@ -1,6 +1,7 @@
 package hu.flowacademy.carsharing.Controller;
 
 import hu.flowacademy.carsharing.Domain.Car;
+import hu.flowacademy.carsharing.Domain.Driver;
 import hu.flowacademy.carsharing.Service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -26,12 +27,12 @@ public class CarController {
     }
 
     @PutMapping("/update")
-    public ResponseEntity<Car> update(Car car) {
+    public ResponseEntity<Car> update(@RequestBody Car car) {
         return ResponseEntity.ok(carService.save(car));
     }
 
     @PostMapping("/post")
-    public ResponseEntity<Car> post(Car car) {
+    public ResponseEntity<Car> post(@RequestBody Car car) {
         return ResponseEntity.ok(carService.save(car));
     }
 

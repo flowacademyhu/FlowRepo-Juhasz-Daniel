@@ -1,7 +1,10 @@
 package hu.flowacademy.carsharing.Controller;
 
 import hu.flowacademy.carsharing.Domain.Car;
+import hu.flowacademy.carsharing.Domain.Driver;
 import hu.flowacademy.carsharing.Domain.Reservation;
+import hu.flowacademy.carsharing.Service.CarService;
+import hu.flowacademy.carsharing.Service.DriverService;
 import hu.flowacademy.carsharing.Service.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -27,18 +30,18 @@ public class ReservationController {
     }
 
     @PutMapping("/update")
-    public ResponseEntity<Reservation> update(Reservation reservation) {
+    public ResponseEntity<Reservation> update(@RequestBody Reservation reservation) {
         return ResponseEntity.ok(reservationService.save(reservation));
     }
 
     @PostMapping("/post")
-    public ResponseEntity<Reservation> post(Reservation reservation) {
+    public ResponseEntity<Reservation> post(@RequestBody Reservation reservation) {
         return ResponseEntity.ok(reservationService.save(reservation));
     }
 
     @DeleteMapping("/delete/{reserveId}")
-    public ResponseEntity<Void> deleteReservation(@PathVariable String loginName) {
-        reservationService.deleteReservation(loginName);
+    public ResponseEntity<Void> deleteReservation(@PathVariable String reserveId) {
+        reservationService.deleteReservation(reserveId);
         return ResponseEntity.noContent().build();
     }
 

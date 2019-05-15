@@ -10,7 +10,7 @@
 
 5. Készítsük el az entitásokat! 
 
-  a. Szükség lesz egy Car entitásra, ami az autóinkat reprezentálja. Tároljuk el a rendszámukat (legyen ez az id), márkájukat, típusukat, évjáratukat, illetve a forgalmi vizsgájuk lejárati dátumát (az egyszerűség kedvéért itt érdemes LocalDate-et használni, java.util package).
+  a. Szükség lesz egy Car entitásra, ami az autóinkat reprezentálja. Tároljuk el a rendszámukat (legyen ez az id), márkájukat, típusukat, évjáratukat, illetve a forgalmi vizsgájuk lejárati dátumát (az egyszerűség kedvéért itt érdemes LocalDate-et használni, java.time package).
 
   b. Kell továbbá egy Driver entitás, ami a sofőröket jeleníti meg. Róluk el kell tárolni egy login nevet (legyen ez az id), jelszót, a teljes nevüket, a jogosítványuk lejárati dátumát (LocalDate), és hogy aktívak-e jelenleg.
 
@@ -26,23 +26,19 @@
 
 7. Adjunk néhány funkcionalitást az alkalmazásunkhoz! Ügyeljünk az egyes rétegek kovencióira.
 
-  a. Tudjon az alkalmazás autóhoz sofőrt rendelni! Két id-t küldjünk fel, a sofőrét és az autóét. Ezek alapján egy update-tel végezzük el az összerendelést. Figyeljük azt, hogy az autónak érvényes-e a műszakija, illetve hogy a sofőrnek nem járt-e még le a jogosítványa! Ha ez a kettő együtt áll, csak akkor tudjuk elvégezni az összerendelést! Egyébként térjünk vissza hibával!
-
-  b. Tudjunk úgy autót felvenni, hogy már alapból hozzárendelünk egy sofőrt (hint: Transient mezővel megoldható). Itt is figyeljük az előző pontban leírt kritériumokat, és járjunk el ennek megfelelően!
-
-  c. A foglalás hozzáadást úgy bővítsük ki, hogy figyeljünk az alábbiakra:
+  a. A foglalás hozzáadást úgy bővítsük ki, hogy figyeljünk az alábbiakra:
 
     i. Ha adott időszakban adott autóra már létezik foglalás, szálljunk el hibával! Ezen felül persze figyeljük a jogsi lejáratot és a műszaki lejáratot is!
 
-  d. Ezek az ellenőrzések legyenek érvényesek update esetén is!
+  b. Ezek az ellenőrzések legyenek érvényesek update esetén is!
 
-  e. Törölni csak abban az esetben tudjunk autót vagy sofőrt, ha nem tartozik hozzá érvényes foglalás! Ellenkező esetben hibaüzenet.
+  c. Törölni csak abban az esetben tudjunk autót vagy sofőrt, ha nem tartozik hozzá érvényes foglalás! Ellenkező esetben hibaüzenet.
 
-  f. Legyünk képesek listázni az autóinkat a következők alapján:
+  d. Legyünk képesek listázni az autóinkat a következők alapján:
 
-    i. Adott sofőrhöz tartozó autó, érvényes műszakijú autók, adott márkájú/típusú autók.
+    i. Érvényes műszakijú autók, adott márkájú/típusú autók.
 
-  g. Tudjuk listázni a foglalásokat a következők alapján:
+  e. Tudjuk listázni a foglalásokat a következők alapján:
 
     i. Adott sofőr alapján, autó alapján, foglalási intervallum alapján (hogy beleesik-e a megadott intervallumba).
 
