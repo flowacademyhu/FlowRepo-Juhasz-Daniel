@@ -56,4 +56,13 @@ public class ReservationService {
 
     }
 
+    public List<Reservation> getByDriver(String loginName){
+       return reservationRepository.findByDriver_LoginName(loginName);
+    }
+
+    public List<Reservation> getByCar(String numberPlate){
+        return reservationRepository.findByCar_numberPlate(numberPlate);
+    }
+
+
 }

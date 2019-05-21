@@ -1,0 +1,4 @@
+1. Szálkezelés
+Készítsünk egy Main osztályt, melyben 2 threadet fogunk definiálni. Az egyik számoljon 1-től 100-ig 2 másodpercenként, és ezt írja ki konzolra, a másik pedig 100-tól 200-ig, közben 1 másodpercet vár, és szintén írja ki az eredményt.
+Indítsuk el a szálakat a mainben, továbbá ügyeljünk rá, hogy az alkalmazás megvárja, amíg lefutnak a szálak!
+2. Készítsünk egy Counter osztályt, amely implementálja a Runnable interfészt, és legyen 4 adattagja, mely a várakozás idejét, továbbá az alsó és felső korlátot tárolja, és definiáljon egy Thread objektumot is, és valósítsa meg azt, amit az előbbi feladat! (A szálat a konstruktorban hozza létre, de külső fügvényhívással legyen indítható)

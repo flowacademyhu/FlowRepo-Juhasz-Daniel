@@ -8,6 +8,8 @@ import org.postgresql.util.PSQLException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.util.Iterator;
 import java.util.List;
 
 @Service
@@ -41,6 +43,14 @@ public class CarService {
 
     public Car save(Car car) {
         return carRepository.save(car);
+    }
+
+    public List<Car> getByExpireDate() {
+        return carRepository.findByExpireDateAfter(LocalDate.now());
+    }
+
+    public List<Car> getByBrand(String brand) {
+        return carRepository.findByBrand(brand);
     }
 
 }

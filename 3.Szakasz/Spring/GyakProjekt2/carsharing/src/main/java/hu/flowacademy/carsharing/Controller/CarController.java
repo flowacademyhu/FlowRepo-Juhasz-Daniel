@@ -3,10 +3,14 @@ package hu.flowacademy.carsharing.Controller;
 import hu.flowacademy.carsharing.Domain.Car;
 import hu.flowacademy.carsharing.Domain.Driver;
 import hu.flowacademy.carsharing.Service.CarService;
+import org.apache.tomcat.jni.Local;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.awt.image.ReplicateScaleFilter;
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -40,5 +44,15 @@ public class CarController {
     public ResponseEntity<Void> deleteCar(@PathVariable String numberPlate) {
         carService.deleteCar(numberPlate);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/getByExpireDate")
+    public ResponseEntity<List<Car>> getByExpireDate(){
+        return ResponseEntity.ok(carService.getByExpireDate());
+    }
+
+    @GetMapping("/getByBrand/{brand}")
+    public ResponseEntity<List<Car>> getByBrand(@PathVariable String brand) {
+        return ResponseEntity.ok(carService.getByBrand(brand));
     }
 }

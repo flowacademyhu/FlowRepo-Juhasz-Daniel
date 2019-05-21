@@ -45,4 +45,13 @@ public class ReservationController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/getByDriver/{loginName}")
+    public ResponseEntity<List<Reservation>> getByDriver(@PathVariable String loginName){
+        return ResponseEntity.ok(reservationService.getByDriver(loginName));
+    }
+
+    @GetMapping("/getByCar/{numberPlate}")
+    public ResponseEntity<List<Reservation>> getByCar(@PathVariable String numberPlate){
+        return ResponseEntity.ok(reservationService.getByCar(numberPlate));
+    }
 }

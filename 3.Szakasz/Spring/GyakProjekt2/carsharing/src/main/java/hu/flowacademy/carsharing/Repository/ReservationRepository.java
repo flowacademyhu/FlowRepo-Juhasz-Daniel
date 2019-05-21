@@ -13,4 +13,9 @@ public interface ReservationRepository extends JpaRepository<Reservation, String
     public void deleteById(String reserveId);
 
     public List<Reservation> findByReserveStartBetween(LocalDate start, LocalDate end);
+
+    public List<Reservation> findByDriver_LoginName(String loginName);
+
+    public List<Reservation> findByCar_numberPlate(String numberPlate);
+
 }
