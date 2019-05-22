@@ -1,0 +1,10 @@
+1. Írjuk meg a modelleket (User, Badge)
+2. Legyen mindkét osztály adatbázisba írható és olvasható
+3. Csináljunk egy saját exception-t, ami a validációs hibák esetén dobódik.
+4. Validáljuk a create/update függvényeket, a menete:
+	1. A username-nek egyedinek kell lennie
+	2. A badge nevének is egyedinek kell lennie
+	3. Később -> Egy badge, egy felhasználóhoz csak egyszer rendelhető
+5. Írjunk unit tesztet a servicekhez
+6. Készítsünk endpointot a badge-hez, ami vár egy badge és egy felhasználó id-t, az adott badge-et, a felhasználóhoz rendeli 
+7. Írjunk postbanben egy kollekciót, ami létrehoz két felhasználót, majd egy badge-et, ami az első felhasználóhoz tartozik és adja oda a második felhasználónak
