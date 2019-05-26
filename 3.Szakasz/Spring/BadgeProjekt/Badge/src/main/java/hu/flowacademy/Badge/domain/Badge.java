@@ -1,15 +1,16 @@
 package hu.flowacademy.Badge.domain;
 
 import javax.persistence.*;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "badge")
 public class Badge {
 
-    public Badge(String id, String name, byte[] content, User owner) {
+    public Badge(String id, String name, User owner) {
         this.id = id;
         this.name = name;
-        this.content = content;
         this.owner = owner;
     }
 
@@ -23,12 +24,20 @@ public class Badge {
     @Column
     private String name;
 
-    @Column
-    private byte[] content;
-
     @ManyToOne
-    @JoinColumn(name = "user_username", foreignKey = @ForeignKey(name = "fk_user_badge"))
+    @JoinColumn(name = "user_name", foreignKey = @ForeignKey(name = "fk_user_badge"))
     private User owner;
+
+    @Transient
+    @OneToMany(mappedBy = "badge")
+    private List<File> contentList;
+
+    @ManyToMany
+    @JoinTable(
+            name = "join_table_example",
+            joinColumns = @JoinColumn(name = "badge_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_userName"))
+    private Set<User> manyUsers;
 
     public String getId() {
         return id;
@@ -46,19 +55,19 @@ public class Badge {
         this.name = name;
     }
 
-    public byte[] getContent() {
-        return content;
-    }
-
-    public void setContent(byte[] content) {
-        this.content = content;
-    }
-
     public User getOwner() {
         return owner;
     }
 
     public void setOwner(User owner) {
         this.owner = owner;
+    }
+
+    public Set<User> getManyUsers() {
+        return manyUsers;
+    }
+
+    public void setManyUsers(Set<User> manyUsers) {
+        this.manyUsers = manyUsers;
     }
 }

@@ -1,8 +1,11 @@
 package hu.flowacademy.Badge.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -31,9 +34,15 @@ public class User {
     @Column
     private String role;
 
+    // Az adott user melyik badgeeket hozta letre
     @Transient
     @OneToMany(mappedBy = "owner")
     private List<Badge> badges;
+
+    // Az adott user milyen badgeket kapott mas userektol
+    @JsonIgnore
+    @ManyToMany(mappedBy = "manyUsers")
+    private Set<Badge> manyBadges;
 
     public List<Badge> getBadges() {
         return badges;
@@ -73,6 +82,14 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public Set<Badge> getManyBadges() {
+        return manyBadges;
+    }
+
+    public void setManyBadges(Set<Badge> manyBadges) {
+        this.manyBadges = manyBadges;
     }
 
     @Override

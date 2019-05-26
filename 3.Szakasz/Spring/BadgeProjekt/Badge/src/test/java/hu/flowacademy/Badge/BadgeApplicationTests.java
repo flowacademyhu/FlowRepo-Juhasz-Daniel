@@ -12,5 +12,4 @@ public class BadgeApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

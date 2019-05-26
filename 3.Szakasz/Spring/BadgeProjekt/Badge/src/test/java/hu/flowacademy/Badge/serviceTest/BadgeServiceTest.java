@@ -33,7 +33,7 @@ public class BadgeServiceTest {
     @MockBean
     private BadgeRepository badgeRepository;
 
-   /* @Before
+   /*@Before
     public void setup() {
         Badge badgeShouldBeFound = new Badge("elso", "NameNém", 01, sa);
         Mockito.when(badgeRepository.findById(todoItemShouldBeFound.getDescription())).thenReturn(badgeShouldBeFound);

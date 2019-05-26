@@ -8,3 +8,6 @@
 5. Írjunk unit tesztet a servicekhez
 6. Készítsünk endpointot a badge-hez, ami vár egy badge és egy felhasználó id-t, az adott badge-et, a felhasználóhoz rendeli 
 7. Írjunk postbanben egy kollekciót, ami létrehoz két felhasználót, majd egy badge-et, ami az első felhasználóhoz tartozik és adja oda a második felhasználónak
+8. Alakítsuk át a Badge modelljét, úgy hogy ne közvetlenül tárolják a content-et, hanem egy külön táblába. Ehhez kell egy File tábla, ami tartalmaz egy id-t, egy contentet(ez byte[]) és egy nevet ami nem kötelező. A Badge és a File között legyen ManyToOne kapcsolat.
+9. CORS kikapcsolása
+10. Frontend kialakítása, az előre adott sablon alapján 
