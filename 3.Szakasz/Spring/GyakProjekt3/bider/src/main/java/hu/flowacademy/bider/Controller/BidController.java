@@ -25,19 +25,24 @@ public class BidController {
         return ResponseEntity.ok(bidService.getProduct(id));
     }
 
+    @GetMapping("/getInOrder/{id}")
+    private ResponseEntity<List<Bid>> getInOrder(@PathVariable Long id) {
+        return ResponseEntity.ok(bidService.getInOrder(id));
+    }
+
     @DeleteMapping("/delete/{id}")
     private ResponseEntity<Void> delete(@PathVariable Long id) {
         return ResponseEntity.noContent().build();
     }
 
-    @PostMapping("/post")
-    private  ResponseEntity<Bid> post(@RequestBody Bid bid) {
-        return ResponseEntity.ok(bidService.post(bid));
+    @PostMapping("/post/{id}")
+    private  ResponseEntity<Bid> post(@PathVariable Long id, @RequestBody Bid bid) {
+        return ResponseEntity.ok(bidService.put(id, bid));
     }
 
-    @PutMapping("/put")
-    private ResponseEntity<Bid> put(@RequestBody Bid bid) {
-        return ResponseEntity.ok(bidService.put(bid));
+    @PutMapping("/put/{id}")
+    private ResponseEntity<Bid> put(@PathVariable Long id, @RequestBody Bid bid) {
+        return ResponseEntity.ok(bidService.put(id, bid));
     }
 
 }
